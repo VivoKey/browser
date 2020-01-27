@@ -61,7 +61,6 @@ export class LoginComponent extends BaseLoginComponent {
         if (this.platformUtilsService.isChrome()) {
             var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome";
         } else if (this.platformUtilsService.isFirefox()) {
-            console.error(redir);
             var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=firefox";
         }
         var self = this;
@@ -69,9 +68,6 @@ export class LoginComponent extends BaseLoginComponent {
             url: redirin,
             interactive: true
         }, function (redirect_url: string) {
-            if (this.platformUtilsService.isFirefox()) {
-                console.error(redirect_url);
-            }
             console.log(redirect_url);
             self.returnurl = redirect_url;
 
