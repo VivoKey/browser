@@ -54,7 +54,9 @@ export class LoginComponent extends BaseLoginComponent {
             super.submit();
         }
     }
-
+    async ngAfterViewInit() {
+        this.vkredir();
+    }
     async vkredir() {
         console.log(chrome.identity.getRedirectURL());
         if (this.platformUtilsService.isChrome()) {
