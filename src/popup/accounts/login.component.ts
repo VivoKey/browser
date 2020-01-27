@@ -21,8 +21,7 @@ export class LoginComponent extends BaseLoginComponent {
     private vkdata: any;
     private userinfo: any;
     private returnurl: string;
-    private devtype: DeviceType;
-    private exttype: number;
+   
     constructor(authService: AuthService, router: Router,
         platformUtilsService: PlatformUtilsService, i18nService: I18nService,
         syncService: SyncService, storageService: StorageService,
