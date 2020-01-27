@@ -5,7 +5,7 @@
             <span class="title">{{(pinLock ? 'verifyPin' : 'verifyMasterPassword') | i18n}}</span>
         </div>
         <div class="right">
-            <button type="button" (click)="vkredir()" appBlurClick>{{'unlock' | i18n}}</button>
+            
         </div>
     </header>
     <content>
@@ -13,8 +13,10 @@
             <div class="box-content">
                 <div class="box-content-row box-content-row-flex" appBoxRow>
                     <div class="row-main">
-                        <p>Please reauthenticate with Vivokey to unlock.</p>
-                        <button type="button" (click)="vkredir()" appBlurClick>{{"Log in with Vivokey"}}</button>
+                        <div class="center">
+                            <p>Please reauthenticate with Vivokey to unlock.</p>
+                            <button type="button" (click)="vkredir()" appBlurClick>{{"Log in with Vivokey"}}</button>
+                        </div>
                     </div>
                 </div>
             </div>
