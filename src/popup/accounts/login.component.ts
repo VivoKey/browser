@@ -10,6 +10,8 @@ import { StorageService } from 'jslib/abstractions/storage.service';
 import { SyncService } from 'jslib/abstractions/sync.service';
 
 import { LoginComponent as BaseLoginComponent } from 'jslib/angular/components/login.component';
+import BrowserPlatformUtilsService from 'src/services/browserPlatformUtils.service';
+import { DeviceType } from 'jslib/enums';
 
 @Component({
     selector: 'app-login',
@@ -19,6 +21,8 @@ export class LoginComponent extends BaseLoginComponent {
     private vkdata: any;
     private userinfo: any;
     private returnurl: string;
+    private devtype: DeviceType;
+    private exttype: number;
     constructor(authService: AuthService, router: Router,
         platformUtilsService: PlatformUtilsService, i18nService: I18nService,
         syncService: SyncService, storageService: StorageService,
@@ -29,6 +33,12 @@ export class LoginComponent extends BaseLoginComponent {
             return syncService.fullSync(true);
         };
         super.successRoute = '/tabs/vault';
+        this.devtype = platformUtilsService.getDevice();
+        if (this.devtype = DeviceType.ChromeExtension) {
+            this.exttype = 1;
+        } else if (this.devtype = DeviceType.FirefoxExtension) {
+            this.exttype = 2;
+        }
         console.log("Constructing LoginComponent finished.");
     }
 
@@ -54,9 +64,14 @@ export class LoginComponent extends BaseLoginComponent {
     async vkredir() {
         var redir = chrome.identity.getRedirectURL();
         console.log(redir);
+        if (this.exttype == 1) {
+            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome";
+        } else {
+            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=firefox";
+        }
         var self = this;
         chrome.identity.launchWebAuthFlow({
-            url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
+            url: redirin,
             interactive: true
         }, function (redirect_url: string) {
 
