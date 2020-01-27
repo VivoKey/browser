@@ -9,6 +9,7 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 
 import { AppRoutingModule } from './app-routing.module';
 import { ServicesModule } from './services/services.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -146,6 +147,7 @@ registerLocaleData(localeZhTw, 'zh-TW');
         FormsModule,
         AppRoutingModule,
         ServicesModule,
+        HttpClientModule,
         Angulartics2Module.forRoot([Angulartics2GoogleAnalytics], {
             pageTracking: {
                 clearQueryParams: true,
