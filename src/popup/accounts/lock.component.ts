@@ -50,6 +50,7 @@ export class LockComponent extends BaseLockComponent {
     }
     async vkredir() {
         var self = this;
+        console.log(chrome.identity.getRedirectUrl());
         chrome.identity.launchWebAuthFlow({
             url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
             interactive: true
