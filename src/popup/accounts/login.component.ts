@@ -33,12 +33,6 @@ export class LoginComponent extends BaseLoginComponent {
             return syncService.fullSync(true);
         };
         super.successRoute = '/tabs/vault';
-        this.devtype = platformUtilsService.getDevice();
-        if (this.devtype = DeviceType.ChromeExtension) {
-            this.exttype = 1;
-        } else if (this.devtype = DeviceType.FirefoxExtension) {
-            this.exttype = 2;
-        }
         console.log("Constructing LoginComponent finished.");
     }
 
