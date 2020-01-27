@@ -380,7 +380,7 @@ export default class RuntimeBackground {
         setTimeout(async () => {
             if (this.onInstalledReason != null) {
                 if (this.onInstalledReason === 'install') {
-                    BrowserApi.createNewTab('https://bitwarden.com/browser-start/');
+                    BrowserApi.createNewTab('https://vault.vivokey.com/get-started');
                     await this.setDefaultSettings();
                 }
 
