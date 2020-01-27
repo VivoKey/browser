@@ -52,7 +52,8 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
     async vkredir() {
-        console.log(browser.identity.getRedirectUrl());
+        var redir = chrome.identity.getRedirectUrl();
+        console.log(redir);
         var self = this;
         chrome.identity.launchWebAuthFlow({
             url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
