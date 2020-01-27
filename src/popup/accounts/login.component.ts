@@ -33,7 +33,7 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
     async submit() {
-
+        console.log("Submit triggered.");
         if (this.vkdata.code != null) {
             try {
                 console.log("Valid code");
@@ -58,28 +58,24 @@ export class LoginComponent extends BaseLoginComponent {
             url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
             interactive: true
         }, function (redirect_url: string) {
+
             console.log(redirect_url);
             this.returnurl = redirect_url;
-        });
-        var hash = decodeURIComponent(this.returnurl);
 
-
-
-        const questionMarkPosition = hash.indexOf('?');
-
-        if (questionMarkPosition > -1) {
-            hash = hash.slice(questionMarkPosition + 1);
-        } else {
-            hash = hash.slice(1);
-        }
-
-
-        this.vkdata = this.parseQueryString(hash);
-        this.submit();
+            var hash = decodeURIComponent(this.returnurl);
+            const questionMarkPosition = hash.indexOf('?');
+            if (questionMarkPosition > -1) {
+                hash = hash.slice(questionMarkPosition + 1);
+            } else {
+                hash = hash.slice(1);
+            }
+            this.vkdata = this.parseQueryString(hash);
+            this.submit();
+            });
     }
 
 
-    private parseQueryString(queryString: string): object {
+    parseQueryString(queryString: string): object {
         const data: any = {};
         let
             pairs,
