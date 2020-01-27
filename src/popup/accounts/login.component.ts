@@ -33,10 +33,8 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
     async submit() {
-        console.log("Submit triggered.");
         if (this.vkdata.code != null) {
             try {
-                console.log("Valid code");
                 let infotok = await this.http.get<any>("https://bitwarden.vivokey.com:8081/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
                 this.userinfo = {
                     'name': infotok.name,
