@@ -54,23 +54,24 @@ export class LoginComponent extends BaseLoginComponent {
 
     async vkredir() {
         console.log("Vkredir triggered.");
+        var self = this;
         chrome.identity.launchWebAuthFlow({
             url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
             interactive: true
         }, function (redirect_url: string) {
 
             console.log(redirect_url);
-            this.returnurl = redirect_url;
+            self.returnurl = redirect_url;
 
-            var hash = decodeURIComponent(this.returnurl);
+            var hash = decodeURIComponent(self.returnurl);
             const questionMarkPosition = hash.indexOf('?');
             if (questionMarkPosition > -1) {
                 hash = hash.slice(questionMarkPosition + 1);
             } else {
                 hash = hash.slice(1);
             }
-            this.vkdata = this.parseQueryString(hash);
-            this.submit();
+            self.vkdata = self.parseQueryString(hash);
+            self.submit();
             });
     }
 
