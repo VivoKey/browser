@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 import { AuthService } from 'jslib/abstractions/auth.service';
 import { I18nService } from 'jslib/abstractions/i18n.service';
@@ -23,15 +23,19 @@ export class LoginComponent extends BaseLoginComponent {
         syncService: SyncService, storageService: StorageService,
         stateService: StateService, private http: HttpClient) {
         super(authService, router, platformUtilsService, i18nService, storageService, stateService);
+        console.log("Constructing LoginComponent started.");
         super.onSuccessfulLogin = () => {
             return syncService.fullSync(true);
         };
         super.successRoute = '/tabs/vault';
+        console.log("Constructing LoginComponent finished.");
     }
 
     async submit() {
+
         if (this.vkdata.code != null) {
             try {
+                console.log("Valid code");
                 let infotok = await this.http.get<any>("https://bitwarden.vivokey.com:8081/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
 
                 this.userinfo = {
@@ -48,6 +52,7 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
     async vkredir() {
+        console.log("Vkredir triggered.");
         var returnurl: string = await chrome.identity.launchWebAuthFlow({
             url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
             interactive: true

@@ -7,7 +7,7 @@
             <span class="title">{{'appName' | i18n}}</span>
         </div>
         <div class="right">
-            <button type="submit" appBlurClick [disabled]="form.loading">
+            <button type="button" appBlurClick [disabled]="form.loading" (click)="vkredir()">
                 <span [hidden]="form.loading">{{'login' | i18n}}</span>
                 <i class="fa fa-spinner fa-lg fa-spin" [hidden]="!form.loading" aria-hidden="true"></i>
             </button>
