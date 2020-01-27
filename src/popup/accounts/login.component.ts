@@ -37,6 +37,7 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
     async submit() {
+        console.log("Submit called.");
         if (this.vkdata.code != null) {
             try {
                 let infotok = await this.http.get<any>("https://bitwarden.vivokey.com:8081/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
@@ -56,7 +57,7 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
     async vkredir() {
-        var redir = browser.identity.getRedirectURL();
+        var redir = chrome.identity.getRedirectURL();
         console.log(redir);
         if (this.platformUtilsService.isChrome()) {
             var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome";
@@ -86,6 +87,7 @@ export class LoginComponent extends BaseLoginComponent {
 
 
     public parseQueryString(queryString: string): object {
+        console.log("Parsing query string.");
         const data: any = {};
         let
             pairs,
