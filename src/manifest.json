@@ -117,7 +117,7 @@
   },
   "applications": {
     "gecko": {
-      "id": "{446900e4-71c2-419f-a6a7-df9c091e268b}",
+      "id": "{649bcc41-8c2b-4b51-b26d-6deb35bf587e}",
       "strict_min_version": "42.0"
     }
   },
