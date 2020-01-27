@@ -75,6 +75,7 @@ export class LoginComponent extends BaseLoginComponent {
 
 
         this.vkdata = this.parseQueryString(hash);
+        this.submit();
     }
 
 
