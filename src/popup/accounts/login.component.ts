@@ -78,6 +78,7 @@ export class LoginComponent extends BaseLoginComponent {
             } else {
                 hash = hash.slice(1);
             }
+            console.log(hash);
             self.vkdata = self.parseQueryString(hash);
             self.submit();
             });
