@@ -75,7 +75,7 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
 
-    parseQueryString(queryString: string): object {
+    public parseQueryString(queryString: string): object {
         const data: any = {};
         let
             pairs,
