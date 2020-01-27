@@ -115,55 +115,7 @@ export class SettingsComponent implements OnInit {
         }
     }
 
-    async updatePin() {
-        if (this.pin) {
-            const div = document.createElement('div');
-            const label = document.createElement('label');
-            label.className = 'checkbox';
-            const checkboxText = document.createElement('span');
-            const restartText = document.createTextNode(this.i18nService.t('lockWithMasterPassOnRestart'));
-            checkboxText.appendChild(restartText);
-            label.innerHTML = '<input type="checkbox" id="master-pass-restart" checked>';
-            label.appendChild(checkboxText);
-            div.innerHTML = '<input type="text" class="swal-content__input" id="pin-val" autocomplete="off" ' +
-                'autocapitalize="none" autocorrect="none" spellcheck="false" inputmode="verbatim">';
-            (div.querySelector('#pin-val') as HTMLInputElement).placeholder = this.i18nService.t('pin');
-            div.appendChild(label);
-
-            const submitted = await swal({
-                text: this.i18nService.t('setYourPinCode'),
-                content: { element: div },
-                buttons: [this.i18nService.t('cancel'), this.i18nService.t('submit')],
-            });
-            let pin: string = null;
-            let masterPassOnRestart: boolean = null;
-            if (submitted) {
-                pin = (document.getElementById('pin-val') as HTMLInputElement).value;
-                masterPassOnRestart = (document.getElementById('master-pass-restart') as HTMLInputElement).checked;
-            }
-            if (pin != null && pin.trim() !== '') {
-                const kdf = await this.userService.getKdf();
-                const kdfIterations = await this.userService.getKdfIterations();
-                const email = await this.userService.getEmail();
-                const pinKey = await this.cryptoService.makePinKey(pin, email, kdf, kdfIterations);
-                const key = await this.cryptoService.getKey();
-                const pinProtectedKey = await this.cryptoService.encrypt(key.key, pinKey);
-                if (masterPassOnRestart) {
-                    const encPin = await this.cryptoService.encrypt(pin);
-                    await this.storageService.save(ConstantsService.protectedPin, encPin.encryptedString);
-                    this.lockService.pinProtectedKey = pinProtectedKey;
-                } else {
-                    await this.storageService.save(ConstantsService.pinProtectedKey, pinProtectedKey.encryptedString);
-                }
-            } else {
-                this.pin = false;
-            }
-        }
-        if (!this.pin) {
-            await this.cryptoService.clearPinProtectedKey();
-            await this.lockService.clear();
-        }
-    }
+    
 
     async lock() {
         this.analytics.eventTrack.next({ action: 'Lock Now' });
@@ -179,15 +131,7 @@ export class SettingsComponent implements OnInit {
         }
     }
 
-    async changePassword() {
-        this.analytics.eventTrack.next({ action: 'Clicked Change Password' });
-        const confirmed = await this.platformUtilsService.showDialog(
-            this.i18nService.t('changeMasterPasswordConfirmation'), this.i18nService.t('changeMasterPassword'),
-            this.i18nService.t('yes'), this.i18nService.t('cancel'));
-        if (confirmed) {
-            BrowserApi.createNewTab('https://help.bitwarden.com/article/change-your-master-password/');
-        }
-    }
+    
 
     async twoStep() {
         this.analytics.eventTrack.next({ action: 'Clicked Two-step Login' });
