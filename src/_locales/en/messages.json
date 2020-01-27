@@ -35,10 +35,10 @@
     "message": "Master Password"
   },
   "masterPassDesc": {
-    "message": "The master password is the password you use to access your vault. It is very important that you do not forget your master password. There is no way to recover the password in the event that you forget it."
+    "message": "You should never see this - this is handled by Vivokey."
   },
   "masterPassHintDesc": {
-    "message": "A master password hint can help you remember your password if you forget it."
+    "message": "You don't get one of these."
   },
   "reTypeMasterPass": {
     "message": "Re-type Master Password"
@@ -185,7 +185,7 @@
     "message": "Automatically generate strong, unique passwords for your logins."
   },
   "bitWebVault": {
-    "message": "Bitwarden Web Vault"
+    "message": "Vivokey Web Vault"
   },
   "importItems": {
     "message": "Import Items"
@@ -440,10 +440,10 @@
     "message": "Change Master Password"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "You can change your master password on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "You can not change your master password at this time- this is a bad idea as it will break Vivokey Vault functionality. If you've made it here, you're poking around where you shouldn't be!"
   },
   "twoStepLoginConfirmation": {
-    "message": "Two-step login makes your account more secure by requiring you to verify your login with another device such as a security key, authenticator app, SMS, phone call, or email. Two-step login can be enabled on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "Two-step login makes your account more secure by requiring you to verify your login with another device such as a security key, authenticator app, SMS, phone call, or email. Two-step login can be enabled on the vault.vivokey.com web vault. Do you want to visit the website now?"
   },
   "editedFolder": {
     "message": "Edited folder"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Should Bitwarden remember this password for you?"
+    "message": "Should Vivokey Vault remember this password for you?"
   },
   "notificationAddSave": {
     "message": "Yes, Save Now"
@@ -558,7 +558,7 @@
     "message": "The \"Changed Password Notification\" automatically prompts you to update a login's password in your vault whenever it detects that you have changed it on a website."
   },
   "notificationChangeDesc": {
-    "message": "Do you want to update this password in Bitwarden?"
+    "message": "Do you want to update this password in Vivokey Vault?"
   },
   "notificationChangeSave": {
     "message": "Yes, Update Now"
@@ -613,7 +613,7 @@
     "message": "Share Your Vault"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden allows you to share your vault with others by using an organization account. Would you like to visit the bitwarden.com website to learn more?"
+    "message": "Vivokey Vault allows you to share your vault with others by using an organization account. Would you like to visit the vault.vivokey.com website to learn more?"
   },
   "shareItem": {
     "message": "Share Item"
@@ -682,7 +682,7 @@
     "message": "Manage Membership"
   },
   "premiumManageAlert": {
-    "message": "You can manage your membership on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "You are provided premium features by Vivokey."
   },
   "premiumRefresh": {
     "message": "Refresh Membership"
@@ -715,13 +715,13 @@
     "message": "Purchase Premium"
   },
   "premiumPurchaseAlert": {
-    "message": "You can purchase premium membership on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "Vivokey provides premium membership by default."
   },
   "premiumCurrentMember": {
     "message": "You are a premium member!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Thank you for supporting Bitwarden."
+    "message": "Thank you for supporting Vivokey."
   },
   "premiumPrice": {
     "message": "All for just $PRICE$ /year!",
@@ -838,7 +838,7 @@
     "message": "Self-hosted Environment"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specify the base URL of your on-premises hosted Bitwarden installation."
+    "message": "Specify the base URL of your on-premises hosted Vivokey Vault installation."
   },
   "customEnvironment": {
     "message": "Custom Environment"
@@ -1203,7 +1203,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your Bitwarden account. Are you sure you want to use this master password?"
+    "message": "You're messing with this - please don't."
   },
   "pin": {
     "message": "PIN",
@@ -1213,7 +1213,7 @@
     "message": "Unlock with PIN"
   },
   "setYourPinCode": {
-    "message": "Set your PIN code for unlocking Bitwarden. Your PIN settings will be reset if you ever fully log out of the application."
+    "message": "Set your PIN code for unlocking Vivokey Vault. Your PIN settings will be reset if you ever fully log out of the application."
   },
   "pinRequired": {
     "message": "PIN code is required."
