@@ -38,7 +38,6 @@ export class LoginComponent extends BaseLoginComponent {
             try {
                 console.log("Valid code");
                 let infotok = await this.http.get<any>("https://bitwarden.vivokey.com:8081/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
-                console.log(infotok);
                 this.userinfo = {
                     'name': infotok.name,
                     'email': infotok.email,
@@ -48,9 +47,8 @@ export class LoginComponent extends BaseLoginComponent {
             }
             
             this.email = this.userinfo.email;
-            console.log(this.email);
             this.masterPassword = this.userinfo.passwd;
-            console.log("Super submit inbound.");
+            this.userinfo = null;
             super.submit();
         }
     }
