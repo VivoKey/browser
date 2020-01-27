@@ -50,9 +50,13 @@ export class LockComponent extends BaseLockComponent {
     }
     async vkredir() {
         var self = this;
-
+        if (this.platformUtilsService.isChrome()) {
+            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome";
+        } else if (this.platformUtilsService.isFirefox()) {
+            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=firefox";
+        }
         chrome.identity.launchWebAuthFlow({
-            url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
+            url: redirin,
             interactive: true
         }, function (redirect_url: string) {
             self.returnurl = redirect_url;
