@@ -52,7 +52,7 @@ export class LoginComponent extends BaseLoginComponent {
     }
 
     async vkredir() {
-        var redir = chrome.identity.getRedirectUrl();
+        var redir = chrome.identity.getRedirectURL();
         console.log(redir);
         var self = this;
         chrome.identity.launchWebAuthFlow({
