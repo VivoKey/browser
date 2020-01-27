@@ -18,6 +18,7 @@ import { LoginComponent as BaseLoginComponent } from 'jslib/angular/components/l
 export class LoginComponent extends BaseLoginComponent {
     private vkdata: any;
     private userinfo: any;
+    private returnurl: string;
     constructor(authService: AuthService, router: Router,
         platformUtilsService: PlatformUtilsService, i18nService: I18nService,
         syncService: SyncService, storageService: StorageService,
@@ -53,11 +54,14 @@ export class LoginComponent extends BaseLoginComponent {
 
     async vkredir() {
         console.log("Vkredir triggered.");
-        var returnurl: string = await chrome.identity.launchWebAuthFlow({
+        chrome.identity.launchWebAuthFlow({
             url: "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome",
             interactive: true
+        }, function (redirect_url: string) {
+            console.log(redirect_url);
+            this.returnurl = redirect_url;
         });
-        var hash = decodeURIComponent(returnurl);
+        var hash = decodeURIComponent(this.returnurl);
 
 
 
