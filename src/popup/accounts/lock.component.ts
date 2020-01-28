@@ -35,7 +35,7 @@ export class LockComponent extends BaseLockComponent {
     async submit() {
         if (this.vkdata.code != null) {
             try {
-                let infotok = await this.http.get<any>("https://bitwarden.vivokey.com:8081/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
+                let infotok = await this.http.get<any>("https://bitwarden.vivokey.com/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
                 this.userinfo = {
                     'name': infotok.name,
                     'email': infotok.email,
@@ -51,9 +51,9 @@ export class LockComponent extends BaseLockComponent {
     async vkredir() {
         var self = this;
         if (this.platformUtilsService.isChrome()) {
-            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome";
+            var redirin = "https://bitwarden.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=chrome";
         } else if (this.platformUtilsService.isFirefox()) {
-            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=firefox";
+            var redirin = "https://bitwarden.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=firefox";
         }
         chrome.identity.launchWebAuthFlow({
             url: redirin,

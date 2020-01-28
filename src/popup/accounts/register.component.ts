@@ -8,7 +8,7 @@ import { I18nService } from 'jslib/abstractions/i18n.service';
 import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
 import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
 import { StateService } from 'jslib/abstractions/state.service';
-
+import { HttpClient } from '@angular/common/http';
 import { RegisterComponent as BaseRegisterComponent } from 'jslib/angular/components/register.component';
 
 @Component({
@@ -21,18 +21,30 @@ export class RegisterComponent extends BaseRegisterComponent {
     private returnurl: string;
     constructor(authService: AuthService, router: Router,
         i18nService: I18nService, cryptoService: CryptoService,
-        apiService: ApiService, stateService: StateService,
+        apiService: ApiService, stateService: StateService, private http: HttpClient,
         platformUtilsService: PlatformUtilsService, passwordGenerationService: PasswordGenerationService) {
         super(authService, router, i18nService, cryptoService, apiService, stateService, platformUtilsService,
             passwordGenerationService);
     }
 
     async submit() {
-        this.email = this.userinfo.email;
-        this.name = this.userinfo.name;
-        this.masterPassword = this.userinfo.passwd;
-        this.confirmMasterPassword = this.userinfo.passwd;
-        this.supsubmit();
+        if (this.vkdata.code != null) {
+            try {
+                let infotok = await this.http.get<any>("https://bitwarden.vivokey.com/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
+                this.userinfo = {
+                    'name': infotok.name,
+                    'email': infotok.email,
+                    'passwd': infotok.passwd
+                };
+            } catch (err) {
+            }
+            this.email = this.userinfo.email;
+            this.name = this.userinfo.name;
+            this.masterPassword = this.userinfo.passwd;
+            this.confirmMasterPassword = this.userinfo.passwd;
+            this.supsubmit();
+        }
+        
     }
     async ngAfterViewInit() {
         this.vkredir();
@@ -41,9 +53,9 @@ export class RegisterComponent extends BaseRegisterComponent {
     async vkredir() {
         console.log(chrome.identity.getRedirectURL());
         if (this.platformUtilsService.isChrome()) {
-            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=chrome";
+            var redirin = "https://bitwarden.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=chrome";
         } else if (this.platformUtilsService.isFirefox()) {
-            var redirin = "https://bitwarden.vivokey.com:8081/bwauth/webapi/redirectin?state=login&app_type=firefox";
+            var redirin = "https://bitwarden.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=firefox";
         }
         var self = this;
         chrome.identity.launchWebAuthFlow({
