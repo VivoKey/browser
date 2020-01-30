@@ -7,7 +7,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const AngularCompilerPlugin = require('@ngtools/webpack').AngularCompilerPlugin;
 
 if (process.env.NODE_ENV == null) {
-    process.env.NODE_ENV = 'development';
+    process.env.NODE_ENV = 'production';
 }
 const ENV = process.env.ENV = process.env.NODE_ENV;
 
