@@ -30,7 +30,7 @@ export class RegisterComponent extends BaseRegisterComponent {
     async submit() {
         if (this.vkdata.code != null) {
             try {
-                let infotok = await this.http.get<any>("https://bitwarden.vivokey.com/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
+                let infotok = await this.http.get<any>("https://vault.vivokey.com/bwauth/webapi/getauth?code=" + this.vkdata.code).toPromise();
                 this.userinfo = {
                     'name': infotok.name,
                     'email': infotok.email,
@@ -53,9 +53,9 @@ export class RegisterComponent extends BaseRegisterComponent {
     async vkredir() {
         console.log(chrome.identity.getRedirectURL());
         if (this.platformUtilsService.isChrome()) {
-            var redirin = "https://bitwarden.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=chrome";
+            var redirin = "https://vault.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=chrome";
         } else if (this.platformUtilsService.isFirefox()) {
-            var redirin = "https://bitwarden.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=firefox";
+            var redirin = "https://vault.vivokey.com/bwauth/webapi/redirectin?state=login&app_type=firefox";
         }
         var self = this;
         chrome.identity.launchWebAuthFlow({
