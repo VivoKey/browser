@@ -20,7 +20,7 @@ export class EnvironmentComponent {
 
     constructor(protected platformUtilsService: PlatformUtilsService, protected environmentService: EnvironmentService,
         protected i18nService: I18nService) {
-        this.baseUrl = environmentService.baseUrl || "https://bitwarden.vivokey.com";
+        this.baseUrl = environmentService.baseUrl || "https://vault.vivokey.com";
         this.webVaultUrl = environmentService.webVaultUrl || '';
         this.apiUrl = environmentService.apiUrl || '';
         this.identityUrl = environmentService.identityUrl || '';
