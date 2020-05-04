@@ -91,6 +91,9 @@
   "vaultLocked": {
     "message": "Vault is locked."
   },
+  "vaultLoggedOut": {
+    "message": "Vault is logged out."
+  },
   "autoFillInfo": {
     "message": "There are no logins available to auto-fill for the current browser tab."
   },
@@ -321,8 +324,8 @@
   "invalidMasterPassword": {
     "message": "Invalid master password"
   },
-  "lockOptions": {
-    "message": "Lock Options"
+  "vaultTimeout": {
+    "message": "Vault Timeout"
   },
   "lockNow": {
     "message": "Lock Now"
@@ -876,11 +879,17 @@
   "experimentalFeature": {
     "message": "This is currently an experimental feature. Use at your own risk."
   },
+  "commandOpenPopup": {
+    "message": "Open vault popup"
+  },
+  "commandOpenSidebar": {
+    "message": "Open vault in sidebar"
+  },
   "commandAutofillDesc": {
-    "message": "Auto-fill the last used login for the current website."
+    "message": "Auto-fill the last used login for the current website"
   },
   "commandGeneratePasswordDesc": {
-    "message": "Generate and copy a new random password to the clipboard."
+    "message": "Generate and copy a new random password to the clipboard"
   },
   "privateModeMessage": {
     "message": "Unfortunately this window is not available in private mode for this browser."
@@ -1232,5 +1241,27 @@
   },
   "selectOneCollection": {
     "message": "You must select at least one collection."
+  },
+  "cloneItem": {
+    "message": "Clone Item"
+  },
+  "clone": {
+    "message": "Clone"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "One or more organization policies are affecting your generator settings."
+  },
+  "vaultTimeoutAction": {
+    "message": "Vault Timeout Action"
+  },
+  "lock": {
+    "message": "Lock",
+    "description": "Verb form: to make secure or inaccesible by"
+  },
+  "vaultTimeoutLogOutConfirmation": {
+    "message": "Logging out will remove all access to your vault and requires online authentication after the timeout period. Are you sure you want to use this setting?"
+  },
+  "vaultTimeoutLogOutConfirmationTitle": {
+    "message": "Timeout Action Confirmation"
   }
 }

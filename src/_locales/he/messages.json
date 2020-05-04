@@ -876,6 +876,12 @@
   "experimentalFeature": {
     "message": "זוהי אופציה נסיונית. השימוש באופציה זו על אחריותך."
   },
+  "commandOpenPopup": {
+    "message": "פתיחת חלונית כספת"
+  },
+  "commandOpenSidebar": {
+    "message": "פתיחת כספת בסרגל צד"
+  },
   "commandAutofillDesc": {
     "message": "השתמש בהשלמה-האוטומטית האחרונה שבוצעה באתר זה."
   },
@@ -1232,5 +1238,14 @@
   },
   "selectOneCollection": {
     "message": "עליך לבחור לפחות אוסף אחד."
+  },
+  "cloneItem": {
+    "message": "שכפול פריט"
+  },
+  "clone": {
+    "message": "שכפול"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "מדיניות ארגונית אחת או יותר משפיעה על הגדרות המחולל שלך."
   }
 }

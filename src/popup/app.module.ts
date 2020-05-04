@@ -66,6 +66,7 @@ import { ActionButtonsComponent } from './components/action-buttons.component';
 import { CiphersListComponent } from './components/ciphers-list.component';
 import { PopOutComponent } from './components/pop-out.component';
 
+import { CalloutComponent } from 'jslib/angular/components/callout.component';
 import { IconComponent } from 'jslib/angular/components/icon.component';
 
 import {
@@ -167,6 +168,7 @@ registerLocaleData(localeZhTw, 'zh-TW');
         AutofocusDirective,
         BlurClickDirective,
         BoxRowDirective,
+        CalloutComponent,
         CiphersComponent,
         CiphersListComponent,
         CollectionsComponent,

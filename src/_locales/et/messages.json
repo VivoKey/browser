@@ -876,6 +876,12 @@
   "experimentalFeature": {
     "message": "See funktsioon on katsetusjärgus. Kasuta omal vastutusel."
   },
+  "commandOpenPopup": {
+    "message": "Ava hoidla uues aknas"
+  },
+  "commandOpenSidebar": {
+    "message": "Ava hoidla küljeribal"
+  },
   "commandAutofillDesc": {
     "message": "Sisesta lehele viimati kasutatud kontoandmed."
   },
@@ -1232,5 +1238,14 @@
   },
   "selectOneCollection": {
     "message": "Pead valima vähemalt ühe kogumiku."
+  },
+  "cloneItem": {
+    "message": "Klooni kirje"
+  },
+  "clone": {
+    "message": "Klooni"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "Organisatsiooni seaded mõjutavad parooli genereerija sätteid."
   }
 }

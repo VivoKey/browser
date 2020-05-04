@@ -876,6 +876,12 @@
   "experimentalFeature": {
     "message": "Actualment és una característica experimental. Utilitzeu sota el vostre propi risc."
   },
+  "commandOpenPopup": {
+    "message": "Obri l'emergent de la caixa forta"
+  },
+  "commandOpenSidebar": {
+    "message": "Obri la caixa forta a la barra lateral"
+  },
   "commandAutofillDesc": {
     "message": "Ompliu automàticament amb l'últim accés utilitzat per al lloc web actual."
   },
@@ -1232,5 +1238,14 @@
   },
   "selectOneCollection": {
     "message": "Heu d'escollir com a mínim una col·lecció."
+  },
+  "cloneItem": {
+    "message": "Clona l'element"
+  },
+  "clone": {
+    "message": "Clona"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "Una o més polítiques d’organització afecten la configuració del generador."
   }
 }
