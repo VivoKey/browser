@@ -42,7 +42,7 @@ export class RegisterComponent extends BaseRegisterComponent {
             this.name = this.userinfo.name;
             this.masterPassword = this.userinfo.passwd;
             this.confirmMasterPassword = this.userinfo.passwd;
-            this.supsubmit();
+            super.submit();
         }
         
     }
