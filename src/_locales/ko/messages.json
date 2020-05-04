@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - 무료 비밀번호 관리자",
+    "message": "VivoKey Vault - 무료 비밀번호 관리자",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "유일무이하고 강력한 비밀번호를 자동으로 생성합니다."
   },
   "bitWebVault": {
-    "message": "Bitwarden 웹 보관함"
+    "message": "VivoKey Vault 웹 보관함"
   },
   "importItems": {
     "message": "항목 가져오기"
@@ -1209,7 +1209,7 @@
     "message": "취약한 마스터 비밀번호"
   },
   "weakMasterPasswordDesc": {
-    "message": "선택한 마스터 비밀번호는 취약합니다. Bitwarden 계정을 확실히 보호하려면 강력한 마스터 비밀번호(혹은 패스프레이즈)를 사용해야 합니다. 정말 이 마스터 비밀번호를 사용하시겠습니까?"
+    "message": "선택한 마스터 비밀번호는 취약합니다. VivoKey Vault 계정을 확실히 보호하려면 강력한 마스터 비밀번호(혹은 패스프레이즈)를 사용해야 합니다. 정말 이 마스터 비밀번호를 사용하시겠습니까?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "PIN 코드로 잠금 해제"
   },
   "setYourPinCode": {
-    "message": "Bitwarden 잠금해제에 사용될 PIN 코드를 설정합니다. 이 애플리케이션에서 완전히 로그아웃할 경우 PIN 설정이 초기화됩니다."
+    "message": "VivoKey Vault 잠금해제에 사용될 PIN 코드를 설정합니다. 이 애플리케이션에서 완전히 로그아웃할 경우 PIN 설정이 초기화됩니다."
   },
   "pinRequired": {
     "message": "PIN 코드가 필요합니다."

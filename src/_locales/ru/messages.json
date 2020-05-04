@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - бесплатный менеджер паролей",
+    "message": "VivoKey Vault - бесплатный менеджер паролей",
     "description": "Extension name"
   },
   "extDesc": {
@@ -136,7 +136,7 @@
     "message": "Выйти"
   },
   "about": {
-    "message": "О Bitwarden"
+    "message": "О VivoKey Vault"
   },
   "version": {
     "message": "Версия"
@@ -185,7 +185,7 @@
     "message": "Автоматическая генерация сильных и уникальных паролей для ваших логинов."
   },
   "bitWebVault": {
-    "message": "Веб-хранилище Bitwarden"
+    "message": "Веб-хранилище VivoKey Vault"
   },
   "importItems": {
     "message": "Импорт элементов"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Должен ли Bitwarden запомнить этот пароль?"
+    "message": "Должен ли VivoKey Vault запомнить этот пароль?"
   },
   "notificationAddSave": {
     "message": "Да, сохранить"
@@ -558,7 +558,7 @@
     "message": "Уведомление об изменении пароля автоматически предложит вам обновить пароль входа в хранилище, когда обнаружит, что вы изменили его на веб-сайте."
   },
   "notificationChangeDesc": {
-    "message": "Обновить этот пароль в Bitwarden?"
+    "message": "Обновить этот пароль в VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Да, обновить"
@@ -613,7 +613,7 @@
     "message": "Поделиться вашим хранилищем"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden позволяет делиться вашим хранилищем с другими людьми, используя аккаунт организации. Хотите посетить сайт bitwarden.com, чтобы узнать больше?"
+    "message": "VivoKey Vault позволяет делиться вашим хранилищем с другими людьми, используя аккаунт организации. Хотите посетить сайт bitwarden.com, чтобы узнать больше?"
   },
   "shareItem": {
     "message": "Поделиться элементом"
@@ -721,7 +721,7 @@
     "message": "У вас есть Премиум!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Благодарим вас за поддержку Bitwarden."
+    "message": "Благодарим вас за поддержку VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Всего лишь $PRICE$ в год!",
@@ -838,7 +838,7 @@
     "message": "Среда собственного хостинга"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Укажите URL-адрес Bitwarden на вашем сервере."
+    "message": "Укажите URL-адрес VivoKey Vault на вашем сервере."
   },
   "customEnvironment": {
     "message": "Настройка среды"
@@ -1209,7 +1209,7 @@
     "message": "Слабый мастер-пароль"
   },
   "weakMasterPasswordDesc": {
-    "message": "Вы выбрали слабый мастер-пароль. Для надежной защиты аккаунта Bitwarden следует использовать сильный мастер-пароль (или парольную фразу). Вы действительно хотите использовать этот мастер-пароль?"
+    "message": "Вы выбрали слабый мастер-пароль. Для надежной защиты аккаунта VivoKey Vault следует использовать сильный мастер-пароль (или парольную фразу). Вы действительно хотите использовать этот мастер-пароль?"
   },
   "pin": {
     "message": "PIN-код",
@@ -1219,7 +1219,7 @@
     "message": "Разблокировать с помощью PIN-кода"
   },
   "setYourPinCode": {
-    "message": "Установите PIN-код для разблокировки Bitwarden. Настройки PIN-кода будут сброшены, если вы когда-либо полностью выйдете из приложения."
+    "message": "Установите PIN-код для разблокировки VivoKey Vault. Настройки PIN-кода будут сброшены, если вы когда-либо полностью выйдете из приложения."
   },
   "pinRequired": {
     "message": "Требуется PIN-код."

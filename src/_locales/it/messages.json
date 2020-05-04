@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Gestore di password gratuito",
+    "message": "VivoKey Vault - Gestore di password gratuito",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Genera automaticamente password complesse e uniche per i tuoi login."
   },
   "bitWebVault": {
-    "message": "Cassaforte Web Bitwarden"
+    "message": "Cassaforte Web VivoKey Vault"
   },
   "importItems": {
     "message": "Importa Elementi"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Vuoi che Bitwarden ricordi questa password per te?"
+    "message": "Vuoi che VivoKey Vault ricordi questa password per te?"
   },
   "notificationAddSave": {
     "message": "Sì, Salva Ora"
@@ -558,7 +558,7 @@
     "message": "La \"notifica di Password cambiata\" richiederà automaticamente di aggiornare la password di un account di accesso nel tuo vault ogni volta che rileva che è stato modificato su un sito Web."
   },
   "notificationChangeDesc": {
-    "message": "Vuoi aggiornare questa password in Bitwarden?"
+    "message": "Vuoi aggiornare questa password in VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Sì, Aggiorna Ora"
@@ -613,7 +613,7 @@
     "message": "Condividi La Tua Cassaforte"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden ti permette di condividere la tua cassaforte con altri usando un account societario. Vuoi visitare il sito bitwarden.com per saperne di più?"
+    "message": "VivoKey Vault ti permette di condividere la tua cassaforte con altri usando un account societario. Vuoi visitare il sito bitwarden.com per saperne di più?"
   },
   "shareItem": {
     "message": "Condividi elemento"
@@ -721,7 +721,7 @@
     "message": "Sei un membro premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Grazie per il tuo supporto a Bitwarden."
+    "message": "Grazie per il tuo supporto a VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Il tutto per solo %price% all'anno!",
@@ -1209,7 +1209,7 @@
     "message": "Password Principale Debole"
   },
   "weakMasterPasswordDesc": {
-    "message": "La password principale che hai scelto è debole. È necessario utilizzare una password master forte (o una passphrase) per proteggere adeguatamente il tuo account Bitwarden. Sei sicuro di voler utilizzare questa password principale?"
+    "message": "La password principale che hai scelto è debole. È necessario utilizzare una password master forte (o una passphrase) per proteggere adeguatamente il tuo account VivoKey Vault. Sei sicuro di voler utilizzare questa password principale?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Sblocca con PIN"
   },
   "setYourPinCode": {
-    "message": "Imposta il tuo codice PIN per sbloccare Bitwarden. Le impostazioni del PIN verranno reimpostate se eri fuori dall'applicazione."
+    "message": "Imposta il tuo codice PIN per sbloccare VivoKey Vault. Le impostazioni del PIN verranno reimpostate se eri fuori dall'applicazione."
   },
   "pinRequired": {
     "message": "Il Codice PIN è necessario."

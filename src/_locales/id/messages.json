@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Pengelola Sandi Gratis",
+    "message": "VivoKey Vault - Pengelola Sandi Gratis",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden adalah sebuah pengelola sandi yang aman dan gratis untuk semua perangkat Anda.",
+    "message": "VivoKey Vault adalah sebuah pengelola sandi yang aman dan gratis untuk semua perangkat Anda.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "Secara otomatis membuat sandi yang kuat dan unik untuk info masuk Anda."
   },
   "bitWebVault": {
-    "message": "Brankas Web Bitwarden"
+    "message": "Brankas Web VivoKey Vault"
   },
   "importItems": {
     "message": "Impor Item"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Haruskah Bitwarden mengingat sandi ini untuk Anda?"
+    "message": "Haruskah VivoKey Vault mengingat sandi ini untuk Anda?"
   },
   "notificationAddSave": {
     "message": "Ya, Simpan Sekarang"
@@ -558,7 +558,7 @@
     "message": "\"Notifikasi Perubahan Sandi\" secara otomatis akan meminta Anda untuk memperbarui password login di vault Anda ketika mendeteksi bahwa Anda telah mengubahnya lewat situs web."
   },
   "notificationChangeDesc": {
-    "message": "Apakah Anda ingin memperbarui sandi ini di Bitwarden?"
+    "message": "Apakah Anda ingin memperbarui sandi ini di VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Ya, Perbarui sekarang"
@@ -613,7 +613,7 @@
     "message": "Bagikan Brankas Anda"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden memungkinkan Anda berbagi brankas Anda dengan orang lain menggunakan akun organisasi. Anda ingin mengunjungi btiwarden.com untuk memperlajari lebih lanjut?"
+    "message": "VivoKey Vault memungkinkan Anda berbagi brankas Anda dengan orang lain menggunakan akun organisasi. Anda ingin mengunjungi btiwarden.com untuk memperlajari lebih lanjut?"
   },
   "shareItem": {
     "message": "Berbagi Item"
@@ -721,7 +721,7 @@
     "message": "Anda adalah anggota premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Terima kasih telah mendukung Bitwarden."
+    "message": "Terima kasih telah mendukung VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Semua itu hanya $PRICE$/tahun!",
@@ -1209,7 +1209,7 @@
     "message": "Kata Sandi Utama Lemah"
   },
   "weakMasterPasswordDesc": {
-    "message": "Sandi utama yang Anda pilih itu lemah. Anda harus menggunakan sandi yang kuat (atau sebuah passphrase) untuk melindungi akun Bitwarden Anda. Apakah Anda yakin ingin menggunakan sandi ini?"
+    "message": "Sandi utama yang Anda pilih itu lemah. Anda harus menggunakan sandi yang kuat (atau sebuah passphrase) untuk melindungi akun VivoKey Vault Anda. Apakah Anda yakin ingin menggunakan sandi ini?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Buka kunci dengan PIN"
   },
   "setYourPinCode": {
-    "message": "Setel kode PIN Anda untuk membuka kunci Bitwarden. Pengaturan PIN Anda akan diatur ulang jika Anda pernah keluar sepenuhnya dari aplikasi."
+    "message": "Setel kode PIN Anda untuk membuka kunci VivoKey Vault. Pengaturan PIN Anda akan diatur ulang jika Anda pernah keluar sepenuhnya dari aplikasi."
   },
   "pinRequired": {
     "message": "Diperlukan kode PIN."

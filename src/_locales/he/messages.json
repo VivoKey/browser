@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - מנהל סיסמאות חינמי",
+    "message": "VivoKey Vault - מנהל סיסמאות חינמי",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "צור אוטומטית סיסמאות חזקות ויחודיות עבור פרטי הכניסה שלך."
   },
   "bitWebVault": {
-    "message": "כספת באתר Bitwarden"
+    "message": "כספת באתר VivoKey Vault"
   },
   "importItems": {
     "message": "יבא פריטים"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "האם ברצונך שתוכנת Bitwarden תזכור סיסמה זו עבורך?"
+    "message": "האם ברצונך שתוכנת VivoKey Vault תזכור סיסמה זו עבורך?"
   },
   "notificationAddSave": {
     "message": "כן, שמור עכשיו"
@@ -558,7 +558,7 @@
     "message": "ההתראה \"סיסמה שונתה\" תופיע בכל פעם שהמערכת מזהה שינוי בסיסמה באתר אם פרטי הכניסה הקודמים שמורים שבכספת."
   },
   "notificationChangeDesc": {
-    "message": "האם ברצונך לעדכן את הסיסמה הזו בתוכנת Bitwarden?"
+    "message": "האם ברצונך לעדכן את הסיסמה הזו בתוכנת VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "כן, עדכן עכשיו"
@@ -613,7 +613,7 @@
     "message": "שתף את הכספת שלך"
   },
   "shareVaultConfirmation": {
-    "message": "תוכנת Bitwarden מאפשרת לך לשתף את הכספת עם אחרים בעזרת חשבון ארגון. האם תרצה לבקר באתר bitwarden.com ללמוד עוד בנושא זה?"
+    "message": "תוכנת VivoKey Vault מאפשרת לך לשתף את הכספת עם אחרים בעזרת חשבון ארגון. האם תרצה לבקר באתר bitwarden.com ללמוד עוד בנושא זה?"
   },
   "shareItem": {
     "message": "שתף פריט"
@@ -838,7 +838,7 @@
     "message": "סביבה על שרתים מקומיים"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "הזן את כתובת השרת המקומי של Bitwarden."
+    "message": "הזן את כתובת השרת המקומי של VivoKey Vault."
   },
   "customEnvironment": {
     "message": "סביבה מותאמת אישית"
@@ -1219,7 +1219,7 @@
     "message": "בטל נעילה עם קוד PIN"
   },
   "setYourPinCode": {
-    "message": "קבע קוד PIN לביטול נעילת Bitwarden. הגדרות הPIN יאופסו אם תבצע יציאה מהתוכנה."
+    "message": "קבע קוד PIN לביטול נעילת VivoKey Vault. הגדרות הPIN יאופסו אם תבצע יציאה מהתוכנה."
   },
   "pinRequired": {
     "message": "נדרש קוד PIN."

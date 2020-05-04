@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Administrador de contrasenyes gratuït",
+    "message": "VivoKey Vault - Administrador de contrasenyes gratuït",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Genera automàticament contrasenyes fortes i úniques per als vostres inicis de sessió."
   },
   "bitWebVault": {
-    "message": "Caixa forta web de Bitwarden"
+    "message": "Caixa forta web de VivoKey Vault"
   },
   "importItems": {
     "message": "Importa elements"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Bitwarden ha de recordar aquesta contrasenya per a vosaltres?"
+    "message": "VivoKey Vault ha de recordar aquesta contrasenya per a vosaltres?"
   },
   "notificationAddSave": {
     "message": "Sí, guarda-la ara"
@@ -558,7 +558,7 @@
     "message": "La \"Notificació de contrasenya modificada\" us demanarà automàticament que actualitzeu la contrasenya d'inici de sessió a la vostra caixa forta cada vegada que detecte que s'ha canviat en un lloc web."
   },
   "notificationChangeDesc": {
-    "message": "Voleu actualitzar aquesta contrasenya a Bitwarden?"
+    "message": "Voleu actualitzar aquesta contrasenya a VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Sí, actualitza-la ara"
@@ -613,7 +613,7 @@
     "message": "Comparteix la vostra caixa forta"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden us permet compartir la vostra caixa forta amb altres usuaris mitjançant un compte d'organització. Voleu visitar el lloc web de bitwarden.com per obtenir més informació?"
+    "message": "VivoKey Vault us permet compartir la vostra caixa forta amb altres usuaris mitjançant un compte d'organització. Voleu visitar el lloc web de bitwarden.com per obtenir més informació?"
   },
   "shareItem": {
     "message": "Comparteix element"
@@ -721,7 +721,7 @@
     "message": "Sou un membre premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Gràcies per donar suport a Bitwarden."
+    "message": "Gràcies per donar suport a VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Tot per només $PRICE$ / any!",
@@ -838,7 +838,7 @@
     "message": "Entorn d'allotjament propi"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Especifiqueu l'URL base de la vostra instal·lació de Bitwarden allotjada en un entorn propi."
+    "message": "Especifiqueu l'URL base de la vostra instal·lació de VivoKey Vault allotjada en un entorn propi."
   },
   "customEnvironment": {
     "message": "Entorn personalitzat"
@@ -1209,7 +1209,7 @@
     "message": "Contrasenya mestra poc segura"
   },
   "weakMasterPasswordDesc": {
-    "message": "La contrasenya mestra que heu triat és poc segura. Heu d'utilitzar una contrasenya mestra segura (o una frase de pas) per protegir correctament el vostre compte de Bitwarden. Esteu segur que voleu utilitzar aquesta contrasenya mestra?"
+    "message": "La contrasenya mestra que heu triat és poc segura. Heu d'utilitzar una contrasenya mestra segura (o una frase de pas) per protegir correctament el vostre compte de VivoKey Vault. Esteu segur que voleu utilitzar aquesta contrasenya mestra?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Desbloqueja amb codi PIN"
   },
   "setYourPinCode": {
-    "message": "Configureu el vostre codi PIN per desbloquejar Bitwarden. La configuració del PIN es restablirà si tanqueu la sessió definitivament."
+    "message": "Configureu el vostre codi PIN per desbloquejar VivoKey Vault. La configuració del PIN es restablirà si tanqueu la sessió definitivament."
   },
   "pinRequired": {
     "message": "Es necessita el codi PIN."

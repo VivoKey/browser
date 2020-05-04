@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Безкоштовний менеджер паролів",
+    "message": "VivoKey Vault - Безкоштовний менеджер паролів",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden - це захищений і безкоштовний менеджер паролів для всіх ваших пристроїв.",
+    "message": "VivoKey Vault - це захищений і безкоштовний менеджер паролів для всіх ваших пристроїв.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "Автоматичне генерування стійких, унікальних паролів."
   },
   "bitWebVault": {
-    "message": "Веб-сховище Bitwarden"
+    "message": "Веб-сховище VivoKey Vault"
   },
   "importItems": {
     "message": "Імпорт записів"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Чи повинен Bitwarden зберегти цей пароль?"
+    "message": "Чи повинен VivoKey Vault зберегти цей пароль?"
   },
   "notificationAddSave": {
     "message": "Так, зберегти"
@@ -558,7 +558,7 @@
     "message": "\"Сповіщення про змінений пароль\" автоматично запитує вас про оновлення пароля у вашому сховищі, коли виявлено зміну пароля на веб-сайті."
   },
   "notificationChangeDesc": {
-    "message": "Ви хочете оновити цей пароль в Bitwarden?"
+    "message": "Ви хочете оновити цей пароль в VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Так, оновити"
@@ -613,7 +613,7 @@
     "message": "Поділитися своїм сховищем"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden дозволяє вам надавати доступ до свого сховища іншим за допомогою облікового запису організації. Чи не бажаєте перейти на веб-сайт bitwarden.com, щоб дізнатися більше?"
+    "message": "VivoKey Vault дозволяє вам надавати доступ до свого сховища іншим за допомогою облікового запису організації. Чи не бажаєте перейти на веб-сайт bitwarden.com, щоб дізнатися більше?"
   },
   "shareItem": {
     "message": "Поділитися записом"
@@ -721,7 +721,7 @@
     "message": "У вас преміум статус!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Дякуємо за підтримку Bitwarden."
+    "message": "Дякуємо за підтримку VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Всього лише $PRICE$ / за рік!",
@@ -838,7 +838,7 @@
     "message": "Середовище власного хостингу"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Вкажіть основну URL-адресу Bitwarden на вашому сервері."
+    "message": "Вкажіть основну URL-адресу VivoKey Vault на вашому сервері."
   },
   "customEnvironment": {
     "message": "Власне середовище"
@@ -1209,7 +1209,7 @@
     "message": "Слабкий головний пароль"
   },
   "weakMasterPasswordDesc": {
-    "message": "Обраний вами головний пароль є слабким. Для належного захисту свого облікового запису Bitwarden, вам слід використовувати надійний головний пароль (або парольну фразу). Ви впевнені, що хочете використати цей пароль?"
+    "message": "Обраний вами головний пароль є слабким. Для належного захисту свого облікового запису VivoKey Vault, вам слід використовувати надійний головний пароль (або парольну фразу). Ви впевнені, що хочете використати цей пароль?"
   },
   "pin": {
     "message": "PIN-код",
@@ -1219,7 +1219,7 @@
     "message": "Розблокування з PIN-кодом"
   },
   "setYourPinCode": {
-    "message": "Встановіть PIN-код для розблокування Bitwarden. Налаштування PIN-коду будуть скинуті, якщо ви коли-небудь повністю вийдете з програми."
+    "message": "Встановіть PIN-код для розблокування VivoKey Vault. Налаштування PIN-коду будуть скинуті, якщо ви коли-небудь повністю вийдете з програми."
   },
   "pinRequired": {
     "message": "Необхідний PIN-код."

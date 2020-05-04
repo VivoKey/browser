@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - darmowy menedżer haseł",
+    "message": "VivoKey Vault - darmowy menedżer haseł",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Automatycznie wygeneruj silne, unikatowe hasła dla swoich loginów."
   },
   "bitWebVault": {
-    "message": "Sejf internetowy Bitwarden"
+    "message": "Sejf internetowy VivoKey Vault"
   },
   "importItems": {
     "message": "Importuj elementy"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Czy Bitwarden powinien zapisać dla Ciebie to hasło?"
+    "message": "Czy VivoKey Vault powinien zapisać dla Ciebie to hasło?"
   },
   "notificationAddSave": {
     "message": "Tak, zapisz"
@@ -558,7 +558,7 @@
     "message": "\"Powiadomienie o zmianie hasła\" automatycznie zapyta Cię o zaktualizowanie hasła w sejfie za każdym razem, gdy wykryje zmianę hasła na danej stronie."
   },
   "notificationChangeDesc": {
-    "message": "Czy chcesz zaktualizować to hasło w Bitwarden?"
+    "message": "Czy chcesz zaktualizować to hasło w VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Tak, aktualizuj"
@@ -613,7 +613,7 @@
     "message": "Udostępnij sejf"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden pozwala na udostępnianie zawartości sejfu innym osobom, przy użyciu konta organizacji. Czy chcesz odwiedzić stronę bitwarden.com, aby dowiedzieć się więcej?"
+    "message": "VivoKey Vault pozwala na udostępnianie zawartości sejfu innym osobom, przy użyciu konta organizacji. Czy chcesz odwiedzić stronę bitwarden.com, aby dowiedzieć się więcej?"
   },
   "shareItem": {
     "message": "Udostępnij element"
@@ -721,7 +721,7 @@
     "message": "Posiadasz konto Premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Dziękujemy za wspieranie Bitwarden."
+    "message": "Dziękujemy za wspieranie VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Wszystko to jedynie za $PRICE$ /rok!",
@@ -838,7 +838,7 @@
     "message": "Samodzielnie hostowane środowisko"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Wpisz podstawowy adres URL hostowanej instalacji Bitwarden."
+    "message": "Wpisz podstawowy adres URL hostowanej instalacji VivoKey Vault."
   },
   "customEnvironment": {
     "message": "Niestandardowe środowisko"
@@ -1209,7 +1209,7 @@
     "message": "Słabe hasło główne"
   },
   "weakMasterPasswordDesc": {
-    "message": "Wybrane przez Ciebie hasło główne jest słabe. Powinieneś użyć silniejszego hasła (lub frazy), aby właściwie chronić swoje konto Bitwarden. Czy na pewno chcesz użyć tego hasła głównego?"
+    "message": "Wybrane przez Ciebie hasło główne jest słabe. Powinieneś użyć silniejszego hasła (lub frazy), aby właściwie chronić swoje konto VivoKey Vault. Czy na pewno chcesz użyć tego hasła głównego?"
   },
   "pin": {
     "message": "Kod PIN",
@@ -1219,7 +1219,7 @@
     "message": "Odblokuj kodem PIN"
   },
   "setYourPinCode": {
-    "message": "Ustaw kod PIN do odblokowywania aplikacji Bitwarden. Ustawienia odblokowywania kodem PIN zostaną zresetowane po wylogowaniu."
+    "message": "Ustaw kod PIN do odblokowywania aplikacji VivoKey Vault. Ustawienia odblokowywania kodem PIN zostaną zresetowane po wylogowaniu."
   },
   "pinRequired": {
     "message": "Kod PIN jest wymagany."

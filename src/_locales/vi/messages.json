@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Trình quản lý mật khẩu miễn phí",
+    "message": "VivoKey Vault - Trình quản lý mật khẩu miễn phí",
     "description": "Extension name"
   },
   "extDesc": {
@@ -440,10 +440,10 @@
     "message": "Thay đổi mật khẩu chính"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Bạn có thể thay đổi mật khẩu chủ trong trang web Bitwarden. Bạn có muốn truy cập bitwarden.com bây giờ?"
+    "message": "Bạn có thể thay đổi mật khẩu chủ trong trang web VivoKey Vault. Bạn có muốn truy cập bitwarden.com bây giờ?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Xác thực hai lớp giúp cho tài khoản của bạn an toàn hơn bằng cách yêu cầu bạn xác minh thông tin đăng nhập của bạn bằng một thiết bị khác như khóa bảo mật, ứng dụng xác thực, SMS, cuộc gọi điện thoại hoặc email. Bạn có thể bật xác thực hai lớp trong trang web Bitwarden. Bạn có muốn ghé thăm bitwarden.com bây giờ?"
+    "message": "Xác thực hai lớp giúp cho tài khoản của bạn an toàn hơn bằng cách yêu cầu bạn xác minh thông tin đăng nhập của bạn bằng một thiết bị khác như khóa bảo mật, ứng dụng xác thực, SMS, cuộc gọi điện thoại hoặc email. Bạn có thể bật xác thực hai lớp trong trang web VivoKey Vault. Bạn có muốn ghé thăm bitwarden.com bây giờ?"
   },
   "editedFolder": {
     "message": "Chỉnh sửa Thư mục"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Bạn có cần Bitwarden nhớ giúp bạn mật khẩu này không?"
+    "message": "Bạn có cần VivoKey Vault nhớ giúp bạn mật khẩu này không?"
   },
   "notificationAddSave": {
     "message": "Vâng, Lưu Ngay"
@@ -558,7 +558,7 @@
     "message": "The \"Changed Password Notification\" automatically prompts you to update a login's password in your vault whenever it detects that you have changed it on a website."
   },
   "notificationChangeDesc": {
-    "message": "Bạn có muốn cập nhật mật khẩu này trên Bitwarden không?"
+    "message": "Bạn có muốn cập nhật mật khẩu này trên VivoKey Vault không?"
   },
   "notificationChangeSave": {
     "message": "Yes, Update Now"
@@ -613,7 +613,7 @@
     "message": "Chia sẻ kho mật khẩu của bạn"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden cho phép bạn chia sẻ kho mật khẩu của mình với người khác bằng cách sử dụng tài khoản tổ chức. Bạn có muốn truy cập trang web bitwarden.com để tìm hiểu thêm không?"
+    "message": "VivoKey Vault cho phép bạn chia sẻ kho mật khẩu của mình với người khác bằng cách sử dụng tài khoản tổ chức. Bạn có muốn truy cập trang web bitwarden.com để tìm hiểu thêm không?"
   },
   "shareItem": {
     "message": "Share Item"
@@ -682,7 +682,7 @@
     "message": "Quản lý Thành viên"
   },
   "premiumManageAlert": {
-    "message": "Bạn có thể quản lý các thành viên trong trang web Bitwarden. Bạn có muốn truy cập bitwarden.com bây giờ?"
+    "message": "Bạn có thể quản lý các thành viên trong trang web VivoKey Vault. Bạn có muốn truy cập bitwarden.com bây giờ?"
   },
   "premiumRefresh": {
     "message": "Làm mới thành viên"
@@ -715,13 +715,13 @@
     "message": "Mua bản Cao Cấp"
   },
   "premiumPurchaseAlert": {
-    "message": "Bạn có thể nâng cấp làm thành viên cao cấp trong trang web Bitwarden. Bạn có muốn truy cập bitwarden.com bây giờ?"
+    "message": "Bạn có thể nâng cấp làm thành viên cao cấp trong trang web VivoKey Vault. Bạn có muốn truy cập bitwarden.com bây giờ?"
   },
   "premiumCurrentMember": {
     "message": "Bạn là một thành viên cao cấp!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Cảm ơn bạn đã hỗ trợ Bitwarden."
+    "message": "Cảm ơn bạn đã hỗ trợ VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Tất cả chỉ với $PRICE$ /năm!",
@@ -1209,7 +1209,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your Bitwarden account. Are you sure you want to use this master password?"
+    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your VivoKey Vault account. Are you sure you want to use this master password?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Unlock with PIN"
   },
   "setYourPinCode": {
-    "message": "Set your PIN code for unlocking Bitwarden. Your PIN settings will be reset if you ever fully log out of the application."
+    "message": "Set your PIN code for unlocking VivoKey Vault. Your PIN settings will be reset if you ever fully log out of the application."
   },
   "pinRequired": {
     "message": "PIN code is required."

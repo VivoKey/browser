@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Tasuta paroolihaldur",
+    "message": "VivoKey Vault - Tasuta paroolihaldur",
     "description": "Extension name"
   },
   "extDesc": {
@@ -838,7 +838,7 @@
     "message": "Self-hosted Environment"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Specify the base URL of your on-premise hosted Bitwarden installation."
+    "message": "Specify the base URL of your on-premise hosted VivoKey Vault installation."
   },
   "customEnvironment": {
     "message": "Kohandatud keskkond"

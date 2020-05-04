@@ -558,7 +558,7 @@
     "message": "The \"Changed Password Notification\" automatically prompts you to update a login's password in your vault whenever it detects that you have changed it on a website."
   },
   "notificationChangeDesc": {
-    "message": "Do you want to update this password in Bitwarden?"
+    "message": "Do you want to update this password in VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Yes, Update Now"
@@ -613,7 +613,7 @@
     "message": "Share Your Vault"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden allows you to share your vault with others by using an organization account. Would you like to visit the bitwarden.com website to learn more?"
+    "message": "VivoKey Vault allows you to share your vault with others by using an organization account. Would you like to visit the bitwarden.com website to learn more?"
   },
   "shareItem": {
     "message": "Share Item"
@@ -1209,7 +1209,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your Bitwarden account. Are you sure you want to use this master password?"
+    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your VivoKey Vault account. Are you sure you want to use this master password?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Unlock with PIN"
   },
   "setYourPinCode": {
-    "message": "Set your PIN code for unlocking Bitwarden. Your PIN settings will be reset if you ever fully log out of the application."
+    "message": "Set your PIN code for unlocking VivoKey Vault. Your PIN settings will be reset if you ever fully log out of the application."
   },
   "pinRequired": {
     "message": "PIN code is required."

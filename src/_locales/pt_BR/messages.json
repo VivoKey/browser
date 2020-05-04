@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Gerenciador de Senhas Gratuito",
+    "message": "VivoKey Vault - Gerenciador de Senhas Gratuito",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Gere automaticamente senhas fortes e únicas para as suas credenciais."
   },
   "bitWebVault": {
-    "message": "Cofre Web do Bitwarden"
+    "message": "Cofre Web do VivoKey Vault"
   },
   "importItems": {
     "message": "Importar Itens"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "O Bitwarden deve lembrar esta senha para você?"
+    "message": "O VivoKey Vault deve lembrar esta senha para você?"
   },
   "notificationAddSave": {
     "message": "Sim, Salvar Agora"
@@ -558,7 +558,7 @@
     "message": "A \"Notificação de Alteração da Senha\" solicita automaticamente que você atualize a senha de uma credencial no seu cofre quando detecta que você a alterou em um site."
   },
   "notificationChangeDesc": {
-    "message": "Você quer atualizar esta senha no Bitwarden?"
+    "message": "Você quer atualizar esta senha no VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Sim, Atualizar Agora"
@@ -613,7 +613,7 @@
     "message": "Compartilhar Seu Cofre"
   },
   "shareVaultConfirmation": {
-    "message": "O Bitwarden permite compartilhar o seu cofre com outros ao utilizar uma conta de organização. Gostaria de visitar o site bitwarden.com para saber mais?"
+    "message": "O VivoKey Vault permite compartilhar o seu cofre com outros ao utilizar uma conta de organização. Gostaria de visitar o site bitwarden.com para saber mais?"
   },
   "shareItem": {
     "message": "Compartilhar Item"
@@ -721,7 +721,7 @@
     "message": "Você é um membro premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Obrigado por apoiar o Bitwarden."
+    "message": "Obrigado por apoiar o VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Tudo por apenas %price% /ano!",
@@ -838,7 +838,7 @@
     "message": "Ambiente Auto-hospedado"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Especifique a URL de base da sua instalação local do Bitwarden."
+    "message": "Especifique a URL de base da sua instalação local do VivoKey Vault."
   },
   "customEnvironment": {
     "message": "Ambiente Personalizado"
@@ -1209,7 +1209,7 @@
     "message": "Senha Mestra Fraca"
   },
   "weakMasterPasswordDesc": {
-    "message": "A senha mestra que você selecionou está fraca. Você deve usar uma senha mestra forte (ou uma frase-passe) para proteger a sua conta Bitwarden adequadamente. Tem certeza que deseja usar esta senha mestra?"
+    "message": "A senha mestra que você selecionou está fraca. Você deve usar uma senha mestra forte (ou uma frase-passe) para proteger a sua conta VivoKey Vault adequadamente. Tem certeza que deseja usar esta senha mestra?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Desbloquear com o PIN"
   },
   "setYourPinCode": {
-    "message": "Defina o seu código PIN para desbloquear o Bitwarden. Suas configurações de PIN serão redefinidas se alguma vez você encerrar completamente toda a sessão do aplicativo."
+    "message": "Defina o seu código PIN para desbloquear o VivoKey Vault. Suas configurações de PIN serão redefinidas se alguma vez você encerrar completamente toda a sessão do aplicativo."
   },
   "pinRequired": {
     "message": "O código PIN é necessário."

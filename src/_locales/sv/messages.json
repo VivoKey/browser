@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Gratis lösenordshanterare",
+    "message": "VivoKey Vault - Gratis lösenordshanterare",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden är en säker och gratis lösenordshanterare för alla dina enheter.",
+    "message": "VivoKey Vault är en säker och gratis lösenordshanterare för alla dina enheter.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Ska Bitwarden komma ihåg det här lösenordet åt dig?"
+    "message": "Ska VivoKey Vault komma ihåg det här lösenordet åt dig?"
   },
   "notificationAddSave": {
     "message": "Ja, spara nu"
@@ -558,7 +558,7 @@
     "message": "”Notifikation för ändrade lösenord” uppmanar dig automatiskt att uppdatera ett lösenord i ditt valv när den upptäcker att du har ändrat det på en webbplats."
   },
   "notificationChangeDesc": {
-    "message": "Vill du uppdatera det här lösenordet i Bitwarden?"
+    "message": "Vill du uppdatera det här lösenordet i VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Ja, uppdatera nu"
@@ -613,7 +613,7 @@
     "message": "Dela ditt valv"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden gör det möjligt för dig att dela ditt valv med andra genom att använda ett organisationskonto. Vill du besöka bitwarden.com för att lära dig mer?"
+    "message": "VivoKey Vault gör det möjligt för dig att dela ditt valv med andra genom att använda ett organisationskonto. Vill du besöka bitwarden.com för att lära dig mer?"
   },
   "shareItem": {
     "message": "Dela objekt"
@@ -721,7 +721,7 @@
     "message": "Du är en premium-medlem!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Tack för att du stödjer Bitwarden."
+    "message": "Tack för att du stödjer VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Allt för endast $PRICE$/år!",
@@ -838,7 +838,7 @@
     "message": "Egen-hostad miljö"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Ange bas-URL:en för din \"on-premise\"-hostade Bitwarden-installation."
+    "message": "Ange bas-URL:en för din \"on-premise\"-hostade VivoKey Vault-installation."
   },
   "customEnvironment": {
     "message": "Anpassad miljö"
@@ -1209,7 +1209,7 @@
     "message": "Svagt huvudlösenord"
   },
   "weakMasterPasswordDesc": {
-    "message": "Huvudlösenordet du har valt är svagt. Du bör använda ett starkt huvudlösenord (eller en lösenfras) för att skydda ditt Bitwarden-konto ordentligt. Är du säker på att du vill använda detta huvudlösenord?"
+    "message": "Huvudlösenordet du har valt är svagt. Du bör använda ett starkt huvudlösenord (eller en lösenfras) för att skydda ditt VivoKey Vault-konto ordentligt. Är du säker på att du vill använda detta huvudlösenord?"
   },
   "pin": {
     "message": "PIN-kod",
@@ -1219,7 +1219,7 @@
     "message": "Lås upp med PIN-kod"
   },
   "setYourPinCode": {
-    "message": "Ange en PIN-kod för att låsa upp Bitwarden. Dina PIN-inställningar återställs om du någonsin loggar ut helt från programmet."
+    "message": "Ange en PIN-kod för att låsa upp VivoKey Vault. Dina PIN-inställningar återställs om du någonsin loggar ut helt från programmet."
   },
   "pinRequired": {
     "message": "PIN-kod krävs."

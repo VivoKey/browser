@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - مدیریت گذرواژه رایگان",
+    "message": "VivoKey Vault - مدیریت گذرواژه رایگان",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "به طور خودکار رمزهای عبور قوی و منحصر به فرد برای ورود به سیستم خود ایجاد کنید."
   },
   "bitWebVault": {
-    "message": "گاوصندوق وب Bitwarden"
+    "message": "گاوصندوق وب VivoKey Vault"
   },
   "importItems": {
     "message": "واردن کردن موارد"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "آیا Bitwarden باید این رمز عبور را برایتان بخاطر بسپرد؟"
+    "message": "آیا VivoKey Vault باید این رمز عبور را برایتان بخاطر بسپرد؟"
   },
   "notificationAddSave": {
     "message": "بله، ذخیره کن"
@@ -558,7 +558,7 @@
     "message": "\"اعلانیه رمزعبور تغییر کرده\" بصورت خودکار شما را از بروزرسانی رمزعبور در گاوصندوق مطلع میکند هر زمان که شما آن را در یک وبسایت تغییر داده باشید."
   },
   "notificationChangeDesc": {
-    "message": "آیا مایل به بروزرسانی این پسورد در Bitwarden هستید؟"
+    "message": "آیا مایل به بروزرسانی این پسورد در VivoKey Vault هستید؟"
   },
   "notificationChangeSave": {
     "message": "بله، بروزرسانی کن"
@@ -613,7 +613,7 @@
     "message": "اشتراک گذاری گاوصندوقتان"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden به شما اجازه می دهد با استفاده از سازماندهی حساب، گاوصندوقهای خود را با دیگران به اشتراک بگذارید. آیا مایل به بازدید از وب سایت bitwarden.com برای کسب اطلاعات بیشتر هستید؟"
+    "message": "VivoKey Vault به شما اجازه می دهد با استفاده از سازماندهی حساب، گاوصندوقهای خود را با دیگران به اشتراک بگذارید. آیا مایل به بازدید از وب سایت bitwarden.com برای کسب اطلاعات بیشتر هستید؟"
   },
   "shareItem": {
     "message": "اشتراک گذاری مورد"
@@ -721,7 +721,7 @@
     "message": "شما یک عضو پرمیوم هستید!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "برای حمایتتان از Bitwarden سپاسگزاریم."
+    "message": "برای حمایتتان از VivoKey Vault سپاسگزاریم."
   },
   "premiumPrice": {
     "message": "تمامش فقط $PRICE$ در سال!",
@@ -838,7 +838,7 @@
     "message": "محیط خود میزبان"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "آدرس اینترنتی پایه فرضی نصب Bitwarden میزبانی شده را مشخص کنید."
+    "message": "آدرس اینترنتی پایه فرضی نصب VivoKey Vault میزبانی شده را مشخص کنید."
   },
   "customEnvironment": {
     "message": "محیط های سفارشی"

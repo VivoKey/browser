@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Ingyenes jelszókezelő",
+    "message": "VivoKey Vault - Ingyenes jelszókezelő",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Automatikusan létrehoz erős, egyedi jelszavakat a bejelentkezéseidhez."
   },
   "bitWebVault": {
-    "message": "Bitwarden webes széf"
+    "message": "VivoKey Vault webes széf"
   },
   "importItems": {
     "message": "Elemek importálása"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "A Bitwarden megjegyezze ezt a jelszót?"
+    "message": "A VivoKey Vault megjegyezze ezt a jelszót?"
   },
   "notificationAddSave": {
     "message": "Igen, mentés most"
@@ -613,7 +613,7 @@
     "message": "Széf megosztása"
   },
   "shareVaultConfirmation": {
-    "message": "A Bitwarden lehetővé teszi egy szervezeti fiók használatával a fiók megosztását másokkal. Szeretnénk felkeresni a bitwarden.com webhelyet további információért?"
+    "message": "A VivoKey Vault lehetővé teszi egy szervezeti fiók használatával a fiók megosztását másokkal. Szeretnénk felkeresni a bitwarden.com webhelyet további információért?"
   },
   "shareItem": {
     "message": "Elem megosztása"
@@ -721,7 +721,7 @@
     "message": "Te egy prémium tag vagy!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Köszönjük a Bitwarden támogatását."
+    "message": "Köszönjük a VivoKey Vault támogatását."
   },
   "premiumPrice": {
     "message": "Mindez csak $PRICE$ /év.",
@@ -838,7 +838,7 @@
     "message": "Saját üzemeltetésű környezet"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "A helyileg működtetett Bitwarden telepítés alap webcímének megadása."
+    "message": "A helyileg működtetett VivoKey Vault telepítés alap webcímének megadása."
   },
   "customEnvironment": {
     "message": "Egyéni környezet"
@@ -1209,7 +1209,7 @@
     "message": "Gyenge mesterjelszó"
   },
   "weakMasterPasswordDesc": {
-    "message": "A választott mesterjelszó gyenge. Erős jelszót (vagy kifejezést) kell használni a Bitwarden fiók megfelelő védelme érdekében. Biztosan ezt a mesterjelszót szeretnénk használni?"
+    "message": "A választott mesterjelszó gyenge. Erős jelszót (vagy kifejezést) kell használni a VivoKey Vault fiók megfelelő védelme érdekében. Biztosan ezt a mesterjelszót szeretnénk használni?"
   },
   "pin": {
     "message": "Pinkód",
@@ -1219,7 +1219,7 @@
     "message": "Felnyitás pinkóddal"
   },
   "setYourPinCode": {
-    "message": "A pinkód beállítása a Bitwarden feloldásához. A pinkód beállítás alaphelyzetbe kerül, ha teljesen kijelentkezünk az alkalmazásból."
+    "message": "A pinkód beállítása a VivoKey Vault feloldásához. A pinkód beállítás alaphelyzetbe kerül, ha teljesen kijelentkezünk az alkalmazásból."
   },
   "pinRequired": {
     "message": "A pinkód szükséges."

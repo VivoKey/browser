@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden – Ilmainen salasananhallinta",
+    "message": "VivoKey Vault – Ilmainen salasananhallinta",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden on turvallinen ja ilmainen salasananhallintapalvelu kaikille laitteillesi.",
+    "message": "VivoKey Vault on turvallinen ja ilmainen salasananhallintapalvelu kaikille laitteillesi.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Haluatko, että Bitwarden muistaa tämän salasanan puolestasi?"
+    "message": "Haluatko, että VivoKey Vault muistaa tämän salasanan puolestasi?"
   },
   "notificationAddSave": {
     "message": "Kyllä, tallenna nyt"
@@ -1209,7 +1209,7 @@
     "message": "Weak Master Password"
   },
   "weakMasterPasswordDesc": {
-    "message": "Valitsemasi pääsalasana on heikko. Sinun kannattaa käyttää vahvaa pääsalasanaa (tai ‑salalauseketta) suojataksesi Bitwarden-tilisi kunnolla. Haluatko varmasti käyttää tätä pääsalasanaa?"
+    "message": "Valitsemasi pääsalasana on heikko. Sinun kannattaa käyttää vahvaa pääsalasanaa (tai ‑salalauseketta) suojataksesi VivoKey Vault-tilisi kunnolla. Haluatko varmasti käyttää tätä pääsalasanaa?"
   },
   "pin": {
     "message": "PIN",

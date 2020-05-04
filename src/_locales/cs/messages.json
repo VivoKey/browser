@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden – Bezplatný správce hesel",
+    "message": "VivoKey Vault – Bezplatný správce hesel",
     "description": "Extension name"
   },
   "extDesc": {
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Má si pro vás Bitwarden toto heslo pamatovat?"
+    "message": "Má si pro vás VivoKey Vault toto heslo pamatovat?"
   },
   "notificationAddSave": {
     "message": "Ano, uložit nyní"
@@ -558,7 +558,7 @@
     "message": "„Oznámení o změněném heslu“ vás automaticky požádá o potvrzení uložení aktualizovaného hesla v případě, že aplikace rozpozná vámi provedenou změnu hesla na webu."
   },
   "notificationChangeDesc": {
-    "message": "Chcete aktualizovat toto heslo v Bitwarden?"
+    "message": "Chcete aktualizovat toto heslo v VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Ano, aktualizovat"
@@ -613,7 +613,7 @@
     "message": "Sdílet trezor"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden umožňuje sdílet váš trezor s ostatními prostřednictvím účtu organizace. Chcete přejít na bitwarden.com a dozvědět se víc?"
+    "message": "VivoKey Vault umožňuje sdílet váš trezor s ostatními prostřednictvím účtu organizace. Chcete přejít na bitwarden.com a dozvědět se víc?"
   },
   "shareItem": {
     "message": "Sdílet položku"
@@ -721,7 +721,7 @@
     "message": "Jste prémiovým členem!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Děkujeme za podporu Bitwarden."
+    "message": "Děkujeme za podporu VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Vše jen za %price% ročně!",
@@ -838,7 +838,7 @@
     "message": "Vlastnoručně hostované prostředí"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Zadejte základní URL adresu vlastnoručně hostované aplikace Bitwarden."
+    "message": "Zadejte základní URL adresu vlastnoručně hostované aplikace VivoKey Vault."
   },
   "customEnvironment": {
     "message": "Vlastní prostředí"
@@ -1209,7 +1209,7 @@
     "message": "Slabé hlavní heslo"
   },
   "weakMasterPasswordDesc": {
-    "message": "Zvolené hlavní heslo je slabé. Pro správnou ochranu účtu Bitwarden byste měli použít silné hlavní heslo (nebo heslovou frázi). Opravdu chcete toto heslo použít?"
+    "message": "Zvolené hlavní heslo je slabé. Pro správnou ochranu účtu VivoKey Vault byste měli použít silné hlavní heslo (nebo heslovou frázi). Opravdu chcete toto heslo použít?"
   },
   "pin": {
     "message": "PIN",

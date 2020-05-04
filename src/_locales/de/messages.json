@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Kostenloser Passwortmanager",
+    "message": "VivoKey Vault - Kostenloser Passwortmanager",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden ist ein sicherer und kostenloser Passwortmanager für all Ihre Geräte.",
+    "message": "VivoKey Vault ist ein sicherer und kostenloser Passwortmanager für all Ihre Geräte.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "Generiert automatisch ein starkes und einzigartiges Passwort."
   },
   "bitWebVault": {
-    "message": "Bitwarden Web-Tresor"
+    "message": "VivoKey Vault Web-Tresor"
   },
   "importItems": {
     "message": "Einträge importieren"
@@ -440,10 +440,10 @@
     "message": "Master-Passwort ändern"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Du kannst dein Master-Passwort im Bitwarden.com Web-Tresor ändern. Möchtest du die Seite jetzt öffnen?"
+    "message": "Du kannst dein Master-Passwort im VivoKey Vault.com Web-Tresor ändern. Möchtest du die Seite jetzt öffnen?"
   },
   "twoStepLoginConfirmation": {
-    "message": "Mit der Zwei-Faktor Authentifizierung wird dein Account zusätzlich abgesichert, da jede Anmeldung durch einen Sicherheitscode, eine Authentifizierungs-App, SMS, einen Anruf oder eine E-Mail verifiziert werden muss. Die Zwei-Faktor Authentifizierung kann im Bitwarden.com Web-Tresor aktiviert werden. Möchtest du die Seite jetzt öffnen?"
+    "message": "Mit der Zwei-Faktor Authentifizierung wird dein Account zusätzlich abgesichert, da jede Anmeldung durch einen Sicherheitscode, eine Authentifizierungs-App, SMS, einen Anruf oder eine E-Mail verifiziert werden muss. Die Zwei-Faktor Authentifizierung kann im VivoKey Vault.com Web-Tresor aktiviert werden. Möchtest du die Seite jetzt öffnen?"
   },
   "editedFolder": {
     "message": "Ordner bearbeitet"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Soll Bitwarden sich dieses Passwort merken?"
+    "message": "Soll VivoKey Vault sich dieses Passwort merken?"
   },
   "notificationAddSave": {
     "message": "Ja, jetzt speichern"
@@ -558,7 +558,7 @@
     "message": "Die \"Passwort geändert Benachrichtigung\" fragt automatisch nach, ein Passwort in deinem Tressor zu aktualisieren, sobald erkannt wurde das du es auf einer Webseite geändert hast."
   },
   "notificationChangeDesc": {
-    "message": "Möchtest du dieses Passwort in Bitwarden aktualisieren?"
+    "message": "Möchtest du dieses Passwort in VivoKey Vault aktualisieren?"
   },
   "notificationChangeSave": {
     "message": "Ja, jetzt aktualisieren"
@@ -613,7 +613,7 @@
     "message": "Teile deinen Tresor"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden erlaubt es dir deinen Tresor mit anderen zu teilen wenn du einen Organisations Account hast. Möchtest du bitwarden.com besuchen um mehr zu erfahren?"
+    "message": "VivoKey Vault erlaubt es dir deinen Tresor mit anderen zu teilen wenn du einen Organisations Account hast. Möchtest du bitwarden.com besuchen um mehr zu erfahren?"
   },
   "shareItem": {
     "message": "Eintrag teilen"
@@ -682,7 +682,7 @@
     "message": "Mitgliedschaft verwalten"
   },
   "premiumManageAlert": {
-    "message": "Du kannst deine Mitgliedschaft im Bitwarden.com Webtresor verwalten. Möchtest du die Seite jetzt aufrufen?"
+    "message": "Du kannst deine Mitgliedschaft im VivoKey Vault.com Webtresor verwalten. Möchtest du die Seite jetzt aufrufen?"
   },
   "premiumRefresh": {
     "message": "Mitgliedschaft erneuern"
@@ -715,13 +715,13 @@
     "message": "Premium-Mitgliedschaft kaufen"
   },
   "premiumPurchaseAlert": {
-    "message": "Du kannst deine Premium-Mitgliedschaft im Bitwarden.com Web-Tresor kaufen. Möchtest du die Webseite jetzt besuchen?"
+    "message": "Du kannst deine Premium-Mitgliedschaft im VivoKey Vault.com Web-Tresor kaufen. Möchtest du die Webseite jetzt besuchen?"
   },
   "premiumCurrentMember": {
     "message": "Du bist jetzt Premium-Mitglied!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Vielen Dank, dass du Bitwarden unterstützt."
+    "message": "Vielen Dank, dass du VivoKey Vault unterstützt."
   },
   "premiumPrice": {
     "message": "Das alles für %price% pro Jahr!",
@@ -838,7 +838,7 @@
     "message": "Selbstgehostete Umgebung"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Bitte geben Sie die Basis-URL Ihrer selbst gehosteten Bitwarden-Installation an."
+    "message": "Bitte geben Sie die Basis-URL Ihrer selbst gehosteten VivoKey Vault-Installation an."
   },
   "customEnvironment": {
     "message": "Benutzerdefinierte Umgebung"
@@ -1209,7 +1209,7 @@
     "message": "Schwaches Master-Passwort"
   },
   "weakMasterPasswordDesc": {
-    "message": "Das Haupt-Passwort, das du gewählt hast ist schwach. Du solltest ein starkes Haupt-Passwort auswählen, um dein Bitwarden-Konto richtig zu schützen. Bist du sicher, dass du dieses Haupt-Passwort verwenden sollen?"
+    "message": "Das Haupt-Passwort, das du gewählt hast ist schwach. Du solltest ein starkes Haupt-Passwort auswählen, um dein VivoKey Vault-Konto richtig zu schützen. Bist du sicher, dass du dieses Haupt-Passwort verwenden sollen?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Mit PIN-Code entsperren"
   },
   "setYourPinCode": {
-    "message": "Gebe deinen PIN-Code für das Entsperren von Bitwarden ein. Deine PIN-Einstellungen werden zurückgesetzt, wenn du dich vollständig von der Anwendung abmelden."
+    "message": "Gebe deinen PIN-Code für das Entsperren von VivoKey Vault ein. Deine PIN-Einstellungen werden zurückgesetzt, wenn du dich vollständig von der Anwendung abmelden."
   },
   "pinRequired": {
     "message": "PIN-Code ist erforderlich."

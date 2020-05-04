@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Δωρεάν Διαχειριστής Κωδικών",
+    "message": "VivoKey Vault - Δωρεάν Διαχειριστής Κωδικών",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Δημιουργήστε αυτόματα ισχυρούς και μοναδικούς κωδικούς πρόσβασης για τις συνδέσεις σας."
   },
   "bitWebVault": {
-    "message": "Bitwarden Web Vault"
+    "message": "VivoKey Vault Web Vault"
   },
   "importItems": {
     "message": "Εισαγωγή στοιχείων"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Πρέπει το Bitwarden να θυμάται αυτόν τον κωδικό πρόσβασης για εσάς;"
+    "message": "Πρέπει το VivoKey Vault να θυμάται αυτόν τον κωδικό πρόσβασης για εσάς;"
   },
   "notificationAddSave": {
     "message": "Ναι, Αποθήκευση Τώρα"
@@ -558,7 +558,7 @@
     "message": "Η \"Ειδοποίηση Αλλαγής Κωδικού\" σας ζητά αυτόματα να ενημερώσετε τον κωδικό πρόσβασης του εισερχόμενου στο vault σας κάθε φορά που εντοπίζει ότι το έχετε αλλάξει σε έναν ιστότοπο."
   },
   "notificationChangeDesc": {
-    "message": "Θέλετε να ενημερώσετε αυτό τον κωδικό στο Bitwarden ;"
+    "message": "Θέλετε να ενημερώσετε αυτό τον κωδικό στο VivoKey Vault ;"
   },
   "notificationChangeSave": {
     "message": "Ναι, Ενημέρωση Τώρα"
@@ -613,7 +613,7 @@
     "message": "Κοινή χρήση Vault"
   },
   "shareVaultConfirmation": {
-    "message": "Το Bitwarden επιτρέπει να μοιράζεστε το vault σας με άλλους χρησιμοποιώντας ένα λογαριασμό οργανισμού. Θέλετε να επισκεφθείτε την ιστοσελίδα bitwarden.com για να μάθετε περισσότερα;"
+    "message": "Το VivoKey Vault επιτρέπει να μοιράζεστε το vault σας με άλλους χρησιμοποιώντας ένα λογαριασμό οργανισμού. Θέλετε να επισκεφθείτε την ιστοσελίδα bitwarden.com για να μάθετε περισσότερα;"
   },
   "shareItem": {
     "message": "Κοινή χρήση Αντικειμένου"
@@ -721,7 +721,7 @@
     "message": "Είστε ένα premium μέλος!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Ευχαριστούμε που υποστηρίζετε το Bitwarden."
+    "message": "Ευχαριστούμε που υποστηρίζετε το VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Όλα για μόνο $PRICE$ /έτος!",
@@ -838,7 +838,7 @@
     "message": "Αυτο-φιλοξενούμενο περιβάλλον"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Καθορίστε τη βασική διεύθυνση URL, της εγκατάστασης του Bitwarden που φιλοξενείται στο χώρο σας."
+    "message": "Καθορίστε τη βασική διεύθυνση URL, της εγκατάστασης του VivoKey Vault που φιλοξενείται στο χώρο σας."
   },
   "customEnvironment": {
     "message": "Προσαρμοσμένο περιβάλλον"
@@ -1209,7 +1209,7 @@
     "message": "Αδύναμος Κύριος Κωδικός"
   },
   "weakMasterPasswordDesc": {
-    "message": "Ο κύριος κωδικός που έχετε επιλέξει είναι αδύναμος. Θα πρέπει να χρησιμοποιήσετε έναν ισχυρό κύριο κωδικό (ή μια φράση) για την κατάλληλη προστασία του λογαριασμού Bitwarden. Είστε βέβαιοι ότι θέλετε να χρησιμοποιήσετε αυτόν τον κύριο κωδικό;"
+    "message": "Ο κύριος κωδικός που έχετε επιλέξει είναι αδύναμος. Θα πρέπει να χρησιμοποιήσετε έναν ισχυρό κύριο κωδικό (ή μια φράση) για την κατάλληλη προστασία του λογαριασμού VivoKey Vault. Είστε βέβαιοι ότι θέλετε να χρησιμοποιήσετε αυτόν τον κύριο κωδικό;"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Ξεκλείδωμα με PIN"
   },
   "setYourPinCode": {
-    "message": "Ορίστε τον κωδικό PIN για να ξεκλειδώσετε το Bitwarden. Οι ρυθμίσεις PIN θα επαναρυθμιστούν αν αποσυνδεθείτε πλήρως από την εφαρμογή."
+    "message": "Ορίστε τον κωδικό PIN για να ξεκλειδώσετε το VivoKey Vault. Οι ρυθμίσεις PIN θα επαναρυθμιστούν αν αποσυνδεθείτε πλήρως από την εφαρμογή."
   },
   "pinRequired": {
     "message": "Απαιτείται κωδικός PIN."

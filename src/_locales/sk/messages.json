@@ -558,7 +558,7 @@
     "message": "Oznámenie o zmene hesla sa vás automaticky opýta na aktualizáciu prihlasovacích údajov vo vašom trezore vždy, keď zistí, že ste ho zmenili na stránke."
   },
   "notificationChangeDesc": {
-    "message": "Chcete aktualizovať toto heslo v Bitwarden?"
+    "message": "Chcete aktualizovať toto heslo v VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Áno, aktualizovať"
@@ -613,7 +613,7 @@
     "message": "Zdieľať trezor"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden vám umožňuje zdieľať váš trezor s ostatnými ak používate konto v Organizácii. Chcete navštíviť stránku bitwarden.com a dozvedieť sa viac?"
+    "message": "VivoKey Vault vám umožňuje zdieľať váš trezor s ostatnými ak používate konto v Organizácii. Chcete navštíviť stránku bitwarden.com a dozvedieť sa viac?"
   },
   "shareItem": {
     "message": "Zdieľať položku"
@@ -1209,7 +1209,7 @@
     "message": "Slabé hlavné heslo"
   },
   "weakMasterPasswordDesc": {
-    "message": "Hlavné heslo ktoré ste zadali je slabé. Mali by ste použiť silné heslo (alebo frázu) aby ste spoľahlivo ochránili váš Bitwarden účet. Naozaj chcete použiť toto heslo?"
+    "message": "Hlavné heslo ktoré ste zadali je slabé. Mali by ste použiť silné heslo (alebo frázu) aby ste spoľahlivo ochránili váš VivoKey Vault účet. Naozaj chcete použiť toto heslo?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Odomknúť s PIN"
   },
   "setYourPinCode": {
-    "message": "Nastaviť kód PIN na odomknutie Bitwarden. Nastavenie PIN sa vynuluje, ak úplne odhlásite z aplikácie."
+    "message": "Nastaviť kód PIN na odomknutie VivoKey Vault. Nastavenie PIN sa vynuluje, ak úplne odhlásite z aplikácie."
   },
   "pinRequired": {
     "message": "Kód PIN je povinný."

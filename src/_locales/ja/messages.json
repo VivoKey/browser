@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - 無料パスワードマネージャー",
+    "message": "VivoKey Vault - 無料パスワードマネージャー",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden はあらゆる端末で使える、安全な無料パスワードマネージャーです。",
+    "message": "VivoKey Vault はあらゆる端末で使える、安全な無料パスワードマネージャーです。",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "ログインのために強固なユニークパスワードを自動的に生成します。"
   },
   "bitWebVault": {
-    "message": "Bitwarden ウェブ保管庫"
+    "message": "VivoKey Vault ウェブ保管庫"
   },
   "importItems": {
     "message": "アイテムのインポート"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "このパスワードを Bitwarden に保存しますか？"
+    "message": "このパスワードを VivoKey Vault に保存しますか？"
   },
   "notificationAddSave": {
     "message": "保存する"
@@ -558,7 +558,7 @@
     "message": "ウェブサイトでパスワードを変更したことを検出したとき、保管庫のパスワードを更新するために自動的に「パスワードの変更通知」を表示します。"
   },
   "notificationChangeDesc": {
-    "message": "Bitwarden でこのパスワードを更新しますか？"
+    "message": "VivoKey Vault でこのパスワードを更新しますか？"
   },
   "notificationChangeSave": {
     "message": "今すぐ更新する"
@@ -721,7 +721,7 @@
     "message": "あなたはプレミアム会員です！"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Bitwarden を支援いただき、ありがとうございます。"
+    "message": "VivoKey Vault を支援いただき、ありがとうございます。"
   },
   "premiumPrice": {
     "message": "全部でなんと$PRICE$/年だけ！",
@@ -838,7 +838,7 @@
     "message": "セルフホスティング環境"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "セルフホスティングしている Bitwarden のベース URL を指定してください。"
+    "message": "セルフホスティングしている VivoKey Vault のベース URL を指定してください。"
   },
   "customEnvironment": {
     "message": "カスタム環境"
@@ -1209,7 +1209,7 @@
     "message": "脆弱なマスターパスワード"
   },
   "weakMasterPasswordDesc": {
-    "message": "設定されたマスターパスワードの強度は脆弱です。Bitwarden アカウントを適切に保護するために、強力なマスターパスワード（またはパスフレーズ）を使用すべきです。本当にこのマスターパスワードを使用しますか？"
+    "message": "設定されたマスターパスワードの強度は脆弱です。VivoKey Vault アカウントを適切に保護するために、強力なマスターパスワード（またはパスフレーズ）を使用すべきです。本当にこのマスターパスワードを使用しますか？"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "PIN でロック解除"
   },
   "setYourPinCode": {
-    "message": "Bitwarden のロックを解除するための PIN コードを設定します。アプリから完全にログアウトすると、PIN 設定はリセットされます。"
+    "message": "VivoKey Vault のロックを解除するための PIN コードを設定します。アプリから完全にログアウトすると、PIN 設定はリセットされます。"
   },
   "pinRequired": {
     "message": "PIN コードが必要です。"

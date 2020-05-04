@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Gratis wachtwoordbeheer",
+    "message": "VivoKey Vault - Gratis wachtwoordbeheer",
     "description": "Extension name"
   },
   "extDesc": {
@@ -185,7 +185,7 @@
     "message": "Automatisch sterke, unieke wachtwoorden voor je logins genereren."
   },
   "bitWebVault": {
-    "message": "Bitwarden Webkluis"
+    "message": "VivoKey Vault Webkluis"
   },
   "importItems": {
     "message": "Items importeren"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Moet Bitwarden dit wachtwoord voor je onthouden?"
+    "message": "Moet VivoKey Vault dit wachtwoord voor je onthouden?"
   },
   "notificationAddSave": {
     "message": "Ja, nu opslaan"
@@ -558,7 +558,7 @@
     "message": "De \"Melding gewijzigd wachtwoord\" stelt automatisch voor om een wachtwoord in je kluis bij te werken wanneer het op een website is gewijzigd."
   },
   "notificationChangeDesc": {
-    "message": "Wilt je dit wachtwoord in Bitwarden bijwerken?"
+    "message": "Wilt je dit wachtwoord in VivoKey Vault bijwerken?"
   },
   "notificationChangeSave": {
     "message": "Ja, nu bijwerken"
@@ -721,7 +721,7 @@
     "message": "Je bent Premium-lid!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Bedankt voor het ondersteunen van Bitwarden."
+    "message": "Bedankt voor het ondersteunen van VivoKey Vault."
   },
   "premiumPrice": {
     "message": "Dit alles voor slechts $PRICE$ per jaar!",
@@ -838,7 +838,7 @@
     "message": "Zelfgehoste omgeving"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Geef de basis-URL van jouw zelfgehoste Bitwarden-installatie."
+    "message": "Geef de basis-URL van jouw zelfgehoste VivoKey Vault-installatie."
   },
   "customEnvironment": {
     "message": "Aangepaste omgeving"
@@ -1209,7 +1209,7 @@
     "message": "Zwak hoofdwachtwoord"
   },
   "weakMasterPasswordDesc": {
-    "message": "Je hebt een zwak hoofdwachtwoord gekozen. Gebruik een sterk hoofdwachtwoord (of wachtwoordzin) om jouw Bitwarden-account goed te beschermen. Weet je zeker dat je dit hoofdwachtwoord wilt gebruiken?"
+    "message": "Je hebt een zwak hoofdwachtwoord gekozen. Gebruik een sterk hoofdwachtwoord (of wachtwoordzin) om jouw VivoKey Vault-account goed te beschermen. Weet je zeker dat je dit hoofdwachtwoord wilt gebruiken?"
   },
   "pin": {
     "message": "PIN-code",
@@ -1219,7 +1219,7 @@
     "message": "Ontgrendelen met PIN"
   },
   "setYourPinCode": {
-    "message": "Stel je PIN-code in voor het ontgrendelen van Bitwarden. Je PIN-code wordt opnieuw ingesteld als je je ooit volledig afmeldt bij de applicatie."
+    "message": "Stel je PIN-code in voor het ontgrendelen van VivoKey Vault. Je PIN-code wordt opnieuw ingesteld als je je ooit volledig afmeldt bij de applicatie."
   },
   "pinRequired": {
     "message": "PIN-code is vereist."

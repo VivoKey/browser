@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Ücretsiz Parola Yöneticisi",
+    "message": "VivoKey Vault - Ücretsiz Parola Yöneticisi",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden, tüm aygıtlarınız için güvenli ve ücretsiz bir parola yöneticisidir.",
+    "message": "VivoKey Vault, tüm aygıtlarınız için güvenli ve ücretsiz bir parola yöneticisidir.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "Hesaplarınız için otomatik olarak güçlü, özel parolalar oluşturun."
   },
   "bitWebVault": {
-    "message": "Bitwarden Web Kasası"
+    "message": "VivoKey Vault Web Kasası"
   },
   "importItems": {
     "message": "Hesapları İçe Aktar"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "Bitwarden bu parolayı sizin için hatırlamalı mı?"
+    "message": "VivoKey Vault bu parolayı sizin için hatırlamalı mı?"
   },
   "notificationAddSave": {
     "message": "Evet, Şimdi kaydet"
@@ -558,7 +558,7 @@
     "message": "\"Değiştirilmiş Parola Bildirimleri\" bir web sitesindeki hesabınızda parolanızı değiştirdiğinizde otomatik olarak parolanızı güncellemenizi sağlar."
   },
   "notificationChangeDesc": {
-    "message": "Bu parolayı Bitwarden'da güncellemek ister misiniz?"
+    "message": "Bu parolayı VivoKey Vault'da güncellemek ister misiniz?"
   },
   "notificationChangeSave": {
     "message": "Evet, şimdi güncelle"
@@ -613,7 +613,7 @@
     "message": "Kasanızı Paylaşın"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden bir kuruluş hesabı kullanarak başkalarıyla kasanızı paylaşmanızı sağlar. Daha fazla bilgi için bitwarden.com sitesini ziyaret etmek ister misiniz?"
+    "message": "VivoKey Vault bir kuruluş hesabı kullanarak başkalarıyla kasanızı paylaşmanızı sağlar. Daha fazla bilgi için bitwarden.com sitesini ziyaret etmek ister misiniz?"
   },
   "shareItem": {
     "message": "Öge Paylaş"
@@ -721,7 +721,7 @@
     "message": "Premium bir üyesiniz!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Bitwarden'ı desteklediğiniz için teşekkür ederiz."
+    "message": "VivoKey Vault'ı desteklediğiniz için teşekkür ederiz."
   },
   "premiumPrice": {
     "message": "Bunların hepsi sadece %price% /yıl!",
@@ -838,7 +838,7 @@
     "message": "Öz-barındıran Çevre"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Kurum içi barındırılan Bitwarden kurulumunuzun taban URL'sini belirtin."
+    "message": "Kurum içi barındırılan VivoKey Vault kurulumunuzun taban URL'sini belirtin."
   },
   "customEnvironment": {
     "message": "Özel Çevre"
@@ -1209,7 +1209,7 @@
     "message": "Zayıf Ana Parola"
   },
   "weakMasterPasswordDesc": {
-    "message": "Seçtiğiniz ana parola kolayca tahmin edilebilir. Bitwarden hesabınızı korumak istiyorsanız daha güçlü bir ana parola (veya şifre) seçmelisiniz. Bu ana parolayı kullanmak istediğinizden emin misiniz?"
+    "message": "Seçtiğiniz ana parola kolayca tahmin edilebilir. VivoKey Vault hesabınızı korumak istiyorsanız daha güçlü bir ana parola (veya şifre) seçmelisiniz. Bu ana parolayı kullanmak istediğinizden emin misiniz?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "PIN kodu ile kilidi aç"
   },
   "setYourPinCode": {
-    "message": "Bitwarden'ı açmak için bir PIN kodu belirleyin. Uygulamadan tamamen çıkış yaparsanız PIN ayarlarınız sıfırlanacaktır."
+    "message": "VivoKey Vault'ı açmak için bir PIN kodu belirleyin. Uygulamadan tamamen çıkış yaparsanız PIN ayarlarınız sıfırlanacaktır."
   },
   "pinRequired": {
     "message": "PIN kodu gerekli."

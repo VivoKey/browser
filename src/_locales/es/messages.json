@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - Gestor de contraseñas gratuito",
+    "message": "VivoKey Vault - Gestor de contraseñas gratuito",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden es un gestor de contraseñas seguro y gratuito para todos tus dispositivos.",
+    "message": "VivoKey Vault es un gestor de contraseñas seguro y gratuito para todos tus dispositivos.",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -185,7 +185,7 @@
     "message": "Genera automáticamente contraseñas fuertes y únicas para tus accesos."
   },
   "bitWebVault": {
-    "message": "Caja fuerte web de Bitwarden"
+    "message": "Caja fuerte web de VivoKey Vault"
   },
   "importItems": {
     "message": "Importar elementos"
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "¿Debería Bitwarden recordar esta contraseña por ti?"
+    "message": "¿Debería VivoKey Vault recordar esta contraseña por ti?"
   },
   "notificationAddSave": {
     "message": "Si, guardarla"
@@ -558,7 +558,7 @@
     "message": "La notificación \"Contraseña cambiada\" automáticamente te pedirá que actualices la contraseña de inicio de sesión en tu caja fuerte cuando detecte que se ha cambiado en la web."
   },
   "notificationChangeDesc": {
-    "message": "¿Desea actualizar esta contraseña en Bitwarden?"
+    "message": "¿Desea actualizar esta contraseña en VivoKey Vault?"
   },
   "notificationChangeSave": {
     "message": "Sí, actualizar ahora"
@@ -613,7 +613,7 @@
     "message": "Comparte tu caja fuerte"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden te permite compartir tu caja fuerte con otras personas utilizando una cuenta de organización. ¿Quieres visitar la web bitwarden.com para conocer más?"
+    "message": "VivoKey Vault te permite compartir tu caja fuerte con otras personas utilizando una cuenta de organización. ¿Quieres visitar la web bitwarden.com para conocer más?"
   },
   "shareItem": {
     "message": "Compartir elemento"
@@ -721,7 +721,7 @@
     "message": "¡Eres un miembro Premium!"
   },
   "premiumCurrentMemberThanks": {
-    "message": "Gracias por apoyar el desarrollo de Bitwarden."
+    "message": "Gracias por apoyar el desarrollo de VivoKey Vault."
   },
   "premiumPrice": {
     "message": "¡Todo por solo %price% /año!",
@@ -838,7 +838,7 @@
     "message": "Entorno de alojamiento propio"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "Especifica la URL base de tu instalación de Bitwarden de alojamiento propio."
+    "message": "Especifica la URL base de tu instalación de VivoKey Vault de alojamiento propio."
   },
   "customEnvironment": {
     "message": "Entorno personalizado"
@@ -1209,7 +1209,7 @@
     "message": "Contraseña maestra débil"
   },
   "weakMasterPasswordDesc": {
-    "message": "La contraseña maestra que ha elegido es débil. Debe usar una contraseña maestra fuerte (o una frase de contraseña) para proteger adecuadamente su cuenta de Bitwarden. ¿Está seguro de que desea utilizar esta contraseña maestra?"
+    "message": "La contraseña maestra que ha elegido es débil. Debe usar una contraseña maestra fuerte (o una frase de contraseña) para proteger adecuadamente su cuenta de VivoKey Vault. ¿Está seguro de que desea utilizar esta contraseña maestra?"
   },
   "pin": {
     "message": "PIN",
@@ -1219,7 +1219,7 @@
     "message": "Desbloquear con PIN"
   },
   "setYourPinCode": {
-    "message": "Establece tu código PIN para desbloquear Bitwarden. Tus ajustes de PIN se reiniciarán si alguna vez cierras tu sesión completamente de la aplicación."
+    "message": "Establece tu código PIN para desbloquear VivoKey Vault. Tus ajustes de PIN se reiniciarán si alguna vez cierras tu sesión completamente de la aplicación."
   },
   "pinRequired": {
     "message": "Código PIN requerido."

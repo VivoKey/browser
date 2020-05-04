@@ -1,13 +1,13 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "VivoKey Vault"
   },
   "extName": {
-    "message": "Bitwarden - 免费密码管理器",
+    "message": "VivoKey Vault - 免费密码管理器",
     "description": "Extension name"
   },
   "extDesc": {
-    "message": "Bitwarden 是一个安全且免费的跨平台密码管理器。",
+    "message": "VivoKey Vault 是一个安全且免费的跨平台密码管理器。",
     "description": "Extension description"
   },
   "loginOrCreateNewAccount": {
@@ -543,7 +543,7 @@
     "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
   },
   "notificationAddDesc": {
-    "message": "希望 Bitwarden 为您保存这个密码吗？"
+    "message": "希望 VivoKey Vault 为您保存这个密码吗？"
   },
   "notificationAddSave": {
     "message": "是，现在保存"
@@ -558,7 +558,7 @@
     "message": "检测到您已变更网站上的密码时，“密码变更通知” 自动提醒您更改密码库中相应项的密码。"
   },
   "notificationChangeDesc": {
-    "message": "是否要在 Bitwarden 中更新此密码？"
+    "message": "是否要在 VivoKey Vault 中更新此密码？"
   },
   "notificationChangeSave": {
     "message": "是，立即更新"
@@ -613,7 +613,7 @@
     "message": "分享你的密码库"
   },
   "shareVaultConfirmation": {
-    "message": "Bitwarden 允许您使用组织帐户与他人共享您的存储库。您想访问 bitwarden.com 网站以了解更多内容吗？"
+    "message": "VivoKey Vault 允许您使用组织帐户与他人共享您的存储库。您想访问 bitwarden.com 网站以了解更多内容吗？"
   },
   "shareItem": {
     "message": "共享项目"
@@ -721,7 +721,7 @@
     "message": "您是一名高级会员！"
   },
   "premiumCurrentMemberThanks": {
-    "message": "感谢您支持 Bitwarden。"
+    "message": "感谢您支持 VivoKey Vault。"
   },
   "premiumPrice": {
     "message": "只需 %price% /每年！",
@@ -838,7 +838,7 @@
     "message": "自我托管环境"
   },
   "selfHostedEnvironmentFooter": {
-    "message": "指定一个基础 URL，由您自己配置、托管 Bitwarden 环境。"
+    "message": "指定一个基础 URL，由您自己配置、托管 VivoKey Vault 环境。"
   },
   "customEnvironment": {
     "message": "自定义环境"
@@ -1209,7 +1209,7 @@
     "message": "脆弱的主密码"
   },
   "weakMasterPasswordDesc": {
-    "message": "您选择的主密码较弱。您应该使用强密码（或密码短语）来正确保护您的 Bitwarden 账户。仍要使用此主密码吗？"
+    "message": "您选择的主密码较弱。您应该使用强密码（或密码短语）来正确保护您的 VivoKey Vault 账户。仍要使用此主密码吗？"
   },
   "pin": {
     "message": "PIN 码",
@@ -1219,7 +1219,7 @@
     "message": "使用 PIN 解锁"
   },
   "setYourPinCode": {
-    "message": "设定您用来解锁 Bitwarden 的 PIN 码。您的 PIN 设置将在您完全退出本应用程序时被重置。"
+    "message": "设定您用来解锁 VivoKey Vault 的 PIN 码。您的 PIN 设置将在您完全退出本应用程序时被重置。"
   },
   "pinRequired": {
     "message": "需要 PIN 码。"
