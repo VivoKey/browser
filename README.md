@@ -3,6 +3,7 @@
 
 The Vivokey Vault browser extension is a fork of the Bitwarden extension and is written using the Web Extension API and Angular. Main change is a move to Oauth2 login interface - this is dependent on a middleware server that processes Oauth2 requests for the extension and provides the master password. Default values are set to vault.vivokey.com and the Oauth2 API is handled by this.
 
+
 # Build/Run
 
 **Requirements**

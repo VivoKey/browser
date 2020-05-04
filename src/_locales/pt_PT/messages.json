@@ -876,6 +876,12 @@
   "experimentalFeature": {
     "message": "Esta é atualmente uma funcionalidade experimental. Utilize por sua conta e risco."
   },
+  "commandOpenPopup": {
+    "message": "Abrir popup do cofre"
+  },
+  "commandOpenSidebar": {
+    "message": "Abrir cofre na barra lateral"
+  },
   "commandAutofillDesc": {
     "message": "Auto-preencher o último início de sessão utilizado para o website atual."
   },
@@ -1232,5 +1238,14 @@
   },
   "selectOneCollection": {
     "message": "Tem de selecionar pelo menos uma coleção."
+  },
+  "cloneItem": {
+    "message": "Clonar item"
+  },
+  "clone": {
+    "message": "Clonar"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "Uma ou mais políticas de organização estão a afetar as suas definições do gerador."
   }
 }

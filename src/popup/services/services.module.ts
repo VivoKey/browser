@@ -26,11 +26,11 @@ import { EventService } from 'jslib/abstractions/event.service';
 import { ExportService } from 'jslib/abstractions/export.service';
 import { FolderService } from 'jslib/abstractions/folder.service';
 import { I18nService } from 'jslib/abstractions/i18n.service';
-import { LockService } from 'jslib/abstractions/lock.service';
 import { MessagingService } from 'jslib/abstractions/messaging.service';
 import { NotificationsService } from 'jslib/abstractions/notifications.service';
 import { PasswordGenerationService } from 'jslib/abstractions/passwordGeneration.service';
 import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
+import { PolicyService } from 'jslib/abstractions/policy.service';
 import { SearchService as SearchServiceAbstraction } from 'jslib/abstractions/search.service';
 import { SettingsService } from 'jslib/abstractions/settings.service';
 import { StateService as StateServiceAbstraction } from 'jslib/abstractions/state.service';
@@ -39,6 +39,7 @@ import { SyncService } from 'jslib/abstractions/sync.service';
 import { TokenService } from 'jslib/abstractions/token.service';
 import { TotpService } from 'jslib/abstractions/totp.service';
 import { UserService } from 'jslib/abstractions/user.service';
+import { VaultTimeoutService } from 'jslib/abstractions/vaultTimeout.service';
 
 import { AutofillService } from '../../services/abstractions/autofill.service';
 import BrowserMessagingService from '../../services/browserMessaging.service';
@@ -130,6 +131,7 @@ export function initFactory(i18nService: I18nService, storageService: StorageSer
         { provide: I18nService, useFactory: getBgService<I18nService>('i18nService'), deps: [] },
         { provide: CryptoService, useFactory: getBgService<CryptoService>('cryptoService'), deps: [] },
         { provide: EventService, useFactory: getBgService<EventService>('eventService'), deps: [] },
+        { provide: PolicyService, useFactory: getBgService<PolicyService>('policyService'), deps: [] },
         {
             provide: PlatformUtilsService,
             useFactory: getBgService<PlatformUtilsService>('platformUtilsService'),
@@ -144,11 +146,15 @@ export function initFactory(i18nService: I18nService, storageService: StorageSer
         { provide: SyncService, useFactory: getBgService<SyncService>('syncService'), deps: [] },
         { provide: UserService, useFactory: getBgService<UserService>('userService'), deps: [] },
         { provide: SettingsService, useFactory: getBgService<SettingsService>('settingsService'), deps: [] },
-        { provide: LockService, useFactory: getBgService<LockService>('lockService'), deps: [] },
         { provide: StorageService, useFactory: getBgService<StorageService>('storageService'), deps: [] },
         { provide: AppIdService, useFactory: getBgService<AppIdService>('appIdService'), deps: [] },
         { provide: AutofillService, useFactory: getBgService<AutofillService>('autofillService'), deps: [] },
         { provide: ExportService, useFactory: getBgService<ExportService>('exportService'), deps: [] },
+        {
+            provide: VaultTimeoutService,
+            useFactory: getBgService<VaultTimeoutService>('vaultTimeoutService'),
+            deps: [],
+        },
         {
             provide: NotificationsService,
             useFactory: getBgService<NotificationsService>('notificationsService'),

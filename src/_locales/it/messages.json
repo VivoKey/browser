@@ -876,6 +876,12 @@
   "experimentalFeature": {
     "message": "Al momento questa funzionalità è sperimentale. Usala tuo rischio e pericolo."
   },
+  "commandOpenPopup": {
+    "message": "Open vault popup"
+  },
+  "commandOpenSidebar": {
+    "message": "Apri cassaforte nella barra laterale"
+  },
   "commandAutofillDesc": {
     "message": "Auto-completa con l'ultimo login utilizzato sul sito corrente."
   },
@@ -1232,5 +1238,14 @@
   },
   "selectOneCollection": {
     "message": "Devi selezionare almeno una categoria."
+  },
+  "cloneItem": {
+    "message": "Clona oggetto"
+  },
+  "clone": {
+    "message": "Clona"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "Una o più politiche dell'organizzazione stanno influenzando le impostazioni del tuo generatore."
   }
 }

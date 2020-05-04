@@ -876,8 +876,14 @@
   "experimentalFeature": {
     "message": "Toto je momentálně experimentální funkce. Použijte na vlastní riziko."
   },
+  "commandOpenPopup": {
+    "message": "Otevřít vyskakovací okno trezoru"
+  },
+  "commandOpenSidebar": {
+    "message": "Otevřít trezor v postranním panelu"
+  },
   "commandAutofillDesc": {
-    "message": "Automaticky vyplnit poslední použité přihlašovací údaje pro tuto stránku."
+    "message": "Automaticky vyplnit poslední použité přihlašovací údaje pro aktuální web."
   },
   "commandGeneratePasswordDesc": {
     "message": "Vygenerovat a zkopírovat nové náhodné heslo do schránky."
@@ -1232,5 +1238,14 @@
   },
   "selectOneCollection": {
     "message": "Musíte vybrat alespoň jednu kolekci."
+  },
+  "cloneItem": {
+    "message": "Duplikovat položku"
+  },
+  "clone": {
+    "message": "Duplikovat"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "Jedna nebo více zásad organizace ovlivňují nastavení generátoru."
   }
 }

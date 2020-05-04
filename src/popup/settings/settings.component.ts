@@ -1,5 +1,5 @@
 import { Angulartics2 } from 'angulartics2';
-import swal from 'sweetalert';
+import Swal from 'sweetalert2/src/sweetalert2.js';
 
 import {
     Component,
@@ -18,11 +18,11 @@ import { ConstantsService } from 'jslib/services/constants.service';
 import { CryptoService } from 'jslib/abstractions/crypto.service';
 import { EnvironmentService } from 'jslib/abstractions/environment.service';
 import { I18nService } from 'jslib/abstractions/i18n.service';
-import { LockService } from 'jslib/abstractions/lock.service';
 import { MessagingService } from 'jslib/abstractions/messaging.service';
 import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
 import { StorageService } from 'jslib/abstractions/storage.service';
 import { UserService } from 'jslib/abstractions/user.service';
+import { VaultTimeoutService } from 'jslib/abstractions/vaultTimeout.service';
 
 const RateUrls = {
     [DeviceType.ChromeExtension]:
@@ -32,7 +32,7 @@ const RateUrls = {
     [DeviceType.OperaExtension]:
         'https://addons.opera.com/en/extensions/details/bitwarden-free-password-manager/#feedback-container',
     [DeviceType.EdgeExtension]:
-        'https://www.microsoft.com/store/p/bitwarden-free-password-manager/9p6kxl0svnnl',
+        'https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh',
     [DeviceType.VivaldiExtension]:
         'https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/reviews',
     [DeviceType.SafariExtension]:
@@ -44,14 +44,17 @@ const RateUrls = {
     templateUrl: 'settings.component.html',
 })
 export class SettingsComponent implements OnInit {
-    @ViewChild('lockOptionsSelect', { read: ElementRef }) lockOptionsSelectRef: ElementRef;
-    lockOptions: any[];
-    lockOption: number = null;
+    @ViewChild('vaultTimeoutSelect', { read: ElementRef }) vaultTimeoutSelectRef: ElementRef;
+    @ViewChild('vaultTimeoutActionSelect', { read: ElementRef }) vaultTimeoutActionSelectRef: ElementRef;
+    vaultTimeouts: any[];
+    vaultTimeout: number = null;
+    vaultTimeoutActions: any[];
+    vaultTimeoutAction: string;
     pin: boolean = null;
-    previousLockOption: number = null;
+    previousVaultTimeout: number = null;
 
     constructor(private platformUtilsService: PlatformUtilsService, private i18nService: I18nService,
-        private analytics: Angulartics2, private lockService: LockService,
+        private analytics: Angulartics2, private vaultTimeoutService: VaultTimeoutService,
         private storageService: StorageService, public messagingService: MessagingService,
         private router: Router, private environmentService: EnvironmentService,
         private cryptoService: CryptoService, private userService: UserService) {
@@ -61,7 +64,7 @@ export class SettingsComponent implements OnInit {
         const showOnLocked = !this.platformUtilsService.isFirefox() && !this.platformUtilsService.isEdge()
             && !this.platformUtilsService.isSafari();
 
-        this.lockOptions = [
+        this.vaultTimeouts = [
             { name: this.i18nService.t('immediately'), value: 0 },
             { name: this.i18nService.t('oneMinute'), value: 1 },
             { name: this.i18nService.t('fiveMinutes'), value: 5 },
@@ -74,52 +77,137 @@ export class SettingsComponent implements OnInit {
         ];
 
         if (showOnLocked) {
-            this.lockOptions.push({ name: this.i18nService.t('onLocked'), value: -2 });
+            this.vaultTimeouts.push({ name: this.i18nService.t('onLocked'), value: -2 });
         }
 
-        this.lockOptions.push({ name: this.i18nService.t('onRestart'), value: -1 });
-        this.lockOptions.push({ name: this.i18nService.t('never'), value: null });
+        this.vaultTimeouts.push({ name: this.i18nService.t('onRestart'), value: -1 });
+        this.vaultTimeouts.push({ name: this.i18nService.t('never'), value: null });
 
-        let option = await this.storageService.get<number>(ConstantsService.lockOptionKey);
-        if (option != null) {
-            if (option === -2 && !showOnLocked) {
-                option = -1;
+        this.vaultTimeoutActions = [
+            { name: this.i18nService.t('lock'), value: 'lock' },
+            { name: this.i18nService.t('logOut'), value: 'logOut' },
+        ];
+
+        let timeout = await this.storageService.get<number>(ConstantsService.vaultTimeoutKey);
+        if (timeout != null) {
+            if (timeout === -2 && !showOnLocked) {
+                timeout = -1;
             }
-            this.lockOption = option;
+            this.vaultTimeout = timeout;
         }
-        this.previousLockOption = this.lockOption;
+        this.previousVaultTimeout = this.vaultTimeout;
+        const action = await this.storageService.get<string>(ConstantsService.vaultTimeoutActionKey);
+        this.vaultTimeoutAction = action == null ? 'lock' : action;
 
-        const pinSet = await this.lockService.isPinLockSet();
+        const pinSet = await this.vaultTimeoutService.isPinLockSet();
         this.pin = pinSet[0] || pinSet[1];
     }
 
-    async saveLockOption(newValue: number) {
+    async saveVaultTimeout(newValue: number) {
         if (newValue == null) {
             const confirmed = await this.platformUtilsService.showDialog(
                 this.i18nService.t('neverLockWarning'), null,
                 this.i18nService.t('yes'), this.i18nService.t('cancel'), 'warning');
             if (!confirmed) {
-                this.lockOptions.forEach((option: any, i) => {
-                    if (option.value === this.lockOption) {
-                        this.lockOptionsSelectRef.nativeElement.value = i + ': ' + this.lockOption;
+                this.vaultTimeouts.forEach((option: any, i) => {
+                    if (option.value === this.vaultTimeout) {
+                        this.vaultTimeoutSelectRef.nativeElement.value = i + ': ' + this.vaultTimeout;
                     }
                 });
                 return;
             }
         }
-        this.previousLockOption = this.lockOption;
-        this.lockOption = newValue;
-        await this.lockService.setLockOption(this.lockOption != null ? this.lockOption : null);
-        if (this.previousLockOption == null) {
+        this.previousVaultTimeout = this.vaultTimeout;
+        this.vaultTimeout = newValue;
+        await this.vaultTimeoutService.setVaultTimeoutOptions(this.vaultTimeout != null ? this.vaultTimeout : null,
+            this.vaultTimeoutAction);
+        if (this.previousVaultTimeout == null) {
             this.messagingService.send('bgReseedStorage');
         }
     }
 
-    
+    async saveVaultTimeoutAction(newValue: string) {
+        if (newValue === 'logOut') {
+            const confirmed = await this.platformUtilsService.showDialog(
+                this.i18nService.t('vaultTimeoutLogOutConfirmation'),
+                this.i18nService.t('vaultTimeoutLogOutConfirmationTitle'),
+                this.i18nService.t('yes'), this.i18nService.t('cancel'), 'warning');
+            if (!confirmed) {
+                this.vaultTimeoutActions.forEach((option: any, i) => {
+                    if (option.value === this.vaultTimeoutAction) {
+                        this.vaultTimeoutActionSelectRef.nativeElement.value = i + ': ' + this.vaultTimeoutAction;
+                    }
+                });
+                return;
+            }
+        }
+        this.vaultTimeoutAction = newValue;
+        await this.vaultTimeoutService.setVaultTimeoutOptions(this.vaultTimeout != null ? this.vaultTimeout : null,
+            this.vaultTimeoutAction);
+    }
+
+    async updatePin() {
+        if (this.pin) {
+            const div = document.createElement('div');
+            const label = document.createElement('label');
+            label.className = 'checkbox';
+            const checkboxText = document.createElement('span');
+            const restartText = document.createTextNode(this.i18nService.t('lockWithMasterPassOnRestart'));
+            checkboxText.appendChild(restartText);
+            label.innerHTML = '<input type="checkbox" id="master-pass-restart" checked>';
+            label.appendChild(checkboxText);
+
+            div.innerHTML =
+                `<div class="swal2-text">${this.i18nService.t('setYourPinCode')}</div>` +
+                '<input type="text" class="swal2-input" id="pin-val" autocomplete="off" ' +
+                'autocapitalize="none" autocorrect="none" spellcheck="false" inputmode="verbatim">';
+
+            (div.querySelector('#pin-val') as HTMLInputElement).placeholder = this.i18nService.t('pin');
+            div.appendChild(label);
+
+            const submitted = await Swal.fire({
+                heightAuto: false,
+                buttonsStyling: false,
+                html: div,
+                showCancelButton: true,
+                cancelButtonText: this.i18nService.t('cancel'),
+                showConfirmButton: true,
+                confirmButtonText: this.i18nService.t('submit'),
+            });
+
+            let pin: string = null;
+            let masterPassOnRestart: boolean = null;
+            if (submitted.value) {
+                pin = (document.getElementById('pin-val') as HTMLInputElement).value;
+                masterPassOnRestart = (document.getElementById('master-pass-restart') as HTMLInputElement).checked;
+            }
+            if (pin != null && pin.trim() !== '') {
+                const kdf = await this.userService.getKdf();
+                const kdfIterations = await this.userService.getKdfIterations();
+                const email = await this.userService.getEmail();
+                const pinKey = await this.cryptoService.makePinKey(pin, email, kdf, kdfIterations);
+                const key = await this.cryptoService.getKey();
+                const pinProtectedKey = await this.cryptoService.encrypt(key.key, pinKey);
+                if (masterPassOnRestart) {
+                    const encPin = await this.cryptoService.encrypt(pin);
+                    await this.storageService.save(ConstantsService.protectedPin, encPin.encryptedString);
+                    this.vaultTimeoutService.pinProtectedKey = pinProtectedKey;
+                } else {
+                    await this.storageService.save(ConstantsService.pinProtectedKey, pinProtectedKey.encryptedString);
+                }
+            } else {
+                this.pin = false;
+            }
+        }
+        if (!this.pin) {
+            await this.cryptoService.clearPinProtectedKey();
+            await this.vaultTimeoutService.clear();
+        }
+    }
 
     async lock() {
         this.analytics.eventTrack.next({ action: 'Lock Now' });
-        await this.lockService.lock(true);
+        await this.vaultTimeoutService.lock(true);
     }
 
     async logOut() {
@@ -189,12 +277,16 @@ export class SettingsComponent implements OnInit {
             this.i18nService.t('version') + ': ' + BrowserApi.getApplicationVersion());
         const div = document.createElement('div');
         div.innerHTML = `<p class="text-center"><i class="fa fa-shield fa-3x" aria-hidden="true"></i></p>
-            <p class="text-center"><b>Bitwarden</b><br>&copy; 8bit Solutions LLC 2015-` + year + `</p>`;
+            <p class="text-center"><b>Bitwarden</b><br>&copy; Bitwarden Inc. 2015-` + year + `</p>`;
         div.appendChild(versionText);
 
-        swal({
-            content: { element: div },
-            buttons: [this.i18nService.t('close'), false],
+        Swal.fire({
+            heightAuto: false,
+            buttonsStyling: false,
+            html: div,
+            showConfirmButton: false,
+            showCancelButton: true,
+            cancelButtonText: this.i18nService.t('close'),
         });
     }
 
@@ -210,18 +302,27 @@ export class SettingsComponent implements OnInit {
         div.appendChild(p);
         div.appendChild(p2);
 
-        const result = await swal({
-            content: { element: div },
-            buttons: [this.i18nService.t('close'), this.i18nService.t('learnMore')],
+        const result = await Swal.fire({
+            heightAuto: false,
+            buttonsStyling: false,
+            html: div,
+            showCancelButton: true,
+            cancelButtonText: this.i18nService.t('close'),
+            showConfirmButton: true,
+            confirmButtonText: this.i18nService.t('learnMore'),
         });
 
-        if (result) {
+        if (result.value) {
             this.platformUtilsService.launchUri('https://help.bitwarden.com/article/fingerprint-phrase/');
         }
     }
 
     rate() {
         this.analytics.eventTrack.next({ action: 'Rate Extension' });
-        BrowserApi.createNewTab((RateUrls as any)[this.platformUtilsService.getDevice()]);
+        let deviceType = this.platformUtilsService.getDevice();
+        if (window.navigator.userAgent.indexOf('Edg/') > -1) {
+            deviceType = DeviceType.EdgeExtension;
+        }
+        BrowserApi.createNewTab((RateUrls as any)[deviceType]);
     }
 }

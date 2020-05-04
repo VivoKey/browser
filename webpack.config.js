@@ -97,13 +97,11 @@ const plugins = [
     new CopyWebpackPlugin([
         './src/manifest.json',
         { from: './src/_locales', to: '_locales' },
-        { from: './src/edge', to: 'edge' },
         { from: './src/images', to: 'images' },
         { from: './src/popup/images', to: 'popup/images' },
         { from: './src/content/autofill.css', to: 'content' },
     ]),
     new webpack.SourceMapDevToolPlugin({
-        filename: '[name].js.map',
         include: ['popup/main.js', 'background.js'],
     }),
     extractCss,
@@ -134,6 +132,7 @@ if (ENV === 'production') {
 
 const config = {
     mode: ENV,
+    devtool: false,
     entry: {
         'popup/main': './src/popup/main.ts',
         'background': './src/background.ts',
