@@ -29,3 +29,10 @@ You can now load the extension into your browser through the browser's extension
   1. Type `about:debugging` in your address bar to bring up the add-ons page.
   2. Click the `Load Temporary Add-on` button, navigate to the `build/manifest.json` file, and "Open".
 
+*** VivoKey Vault Building ***
+run:
+npm install
+npm run dist
+
+if you want to build for one browser, please put this browser after the dist and :
+(so for firefox run npm run dist:firefox)
